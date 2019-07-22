@@ -7,7 +7,7 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Arrays;
-import wangzitian.realtime.ZhiShuHangQing;
+import wangzitian.realtime.ZhiShu;
 
 
 public class ZhiShuHangQing_SHwriter implements Runnable{
@@ -25,11 +25,11 @@ public class ZhiShuHangQing_SHwriter implements Runnable{
 
     @Override
     public void run() {
-        localTimeStamp = data.LocalTimeStamp;
+        int localTimeStamp = data.LocalTimeStamp;
         String quotationFlag = byteArr2String(data.QuotationFlag);
         int Time = data.Time;
         String Symbol = data.Symbol;
-        long PacketTimeStampSH = data.PacketTimeStampSH;
+        long PacketTimeStamp = data.PacketTimeStamp;
         int TradeTime = data.TrateTime;
         double PreClosePrice = data.PreClosePrice;
         double OpenPrice = data.OpenPrice;
@@ -40,13 +40,13 @@ public class ZhiShuHangQing_SHwriter implements Runnable{
         long TotalVolume = data.TotalVolume;
         double TotalAmout = data.TotalAmount;
 
-        IndexHangQing data_ = new IndexHangQing();
+        ZhiShu data_ = new ZhiShu();
 
         data_.setLocalTimeStamp(localTimeStamp);
         data_.setquotationFlag(quotationFlag);
         data_.setTime(Time);
         data_.setSymbol(Symbol);
-        data_.setPacketTimeStampSH(PacketTimeStampSH);
+        data_.setPacketTimeStamp(PacketTimeStamp);
         data_.setTradeTime(TradeTime);
         data_.setPreClosePrice(PreClosePrice);
         data_.setOpenPrice(OpenPrice);
@@ -58,7 +58,7 @@ public class ZhiShuHangQing_SHwriter implements Runnable{
         data_.setTotalAmout(TotalAmout);
 
 
-        ProducerRecord<String, IndexHangQing> record = new ProducerRecord<String, IndexHangQing>(this.code_tablename,data_);
+        ProducerRecord<String, ZhiShu> record = new ProducerRecord<String, ZhiShu>(this.code_tablename,data_);
         try{
 //            Kafka.producers.get(this.thread_id).send(record, new ProducerCallback(transac, this.code_tablename));
 //            Kafka.producers.get(this.thread_id).send(record).get();

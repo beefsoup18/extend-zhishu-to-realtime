@@ -7,11 +7,11 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Arrays;
-import wangzitian.realtime.ZhiShuHangQing;
+import wangzitian.realtime.ZhiShu;
 
 
 public class ZhiShuHangQing_SZwriter implements Runnable{
-    private SSEL2_Index data;
+    private SZSEL2_Index data;
     private int thread_id;
     private String code;
     private String code_tablename;
@@ -25,7 +25,7 @@ public class ZhiShuHangQing_SZwriter implements Runnable{
 
     @Override
     public void run() {
-        localTimeStamp = data.LocalTimeStamp;
+        int localTimeStamp = data.LocalTimeStamp;
         String quotationFlag = byteArr2String(data.QuotationFlag);
         int Time = data.Time;
         String Symbol = data.Symbol;
@@ -41,7 +41,7 @@ public class ZhiShuHangQing_SZwriter implements Runnable{
         long TotalNo = data.TotalNo;
         long SampleNo = data.SampleNo;
 
-        ZhiShuHangQing data_ = new ZhiShuHangQing();
+        ZhiShu data_ = new ZhiShu();
 
         data_.setLocalTimeStamp(localTimeStamp);
         data_.setquotationFlag(quotationFlag);

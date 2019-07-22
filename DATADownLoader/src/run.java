@@ -141,7 +141,7 @@ public class run {
         Distributing dis0 = new Distributing();
         OrderDistributor dis1 = new OrderDistributor();
         HangQingDistributor dis2 = new HangQingDistributor();
-        IndexHangqingDistributor dis3 = new IndexHangqingDistributor();
+        ZhiShuHangQingDistributor dis3 = new ZhiShuHangQingDistributor();
         Thread t0 = new Thread(dis0);
         Thread t1 = new Thread(dis1);
         Thread t2 = new Thread(dis2);

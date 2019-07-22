@@ -11,7 +11,7 @@ import org.apache.kafka.clients.producer.ProducerConfig;
 import wangzitian.realtime.SZorder;
 import wangzitian.realtime.Transactions;
 import wangzitian.realtime.HangQing;
-import wangzitian.realtime.ZhiShuHangQing;
+import wangzitian.realtime.ZhiShu;
 
 
 public class Kafka {
