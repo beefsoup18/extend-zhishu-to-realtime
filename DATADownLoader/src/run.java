@@ -40,6 +40,7 @@ public class run {
         Codes.buildGLThreadsPool();
 
         IGTAQTSCallbackBase callback = new GTACallbackBase();
+        //创建从QTA实时取数据并发送到Kafka集群的服务
         IGTAQTSApi baseService = GTAQTSApiBaseImpl.getInstance().CreateInstance(callback);
         baseService.BaseInit();
         // 4个行情数据接口，自动从能连通的接口取数据
@@ -148,7 +149,7 @@ public class run {
         t0.start();
         t1.start();
         t2.start();
-        t3.star();
+        t3.start();
 
         try {
             Thread.sleep(1000 * 60 * 500);
@@ -159,7 +160,6 @@ public class run {
             t3.join();
             Codes.closeGLThreadPool();
             Kafka.single_producer.close();
-
             Kafka.hangqingOnly_producer.close();
             Kafka.orderOnly_producer.close();
         } catch (InterruptedException e) {

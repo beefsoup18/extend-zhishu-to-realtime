@@ -24,6 +24,7 @@ public class SZorderWrite implements Runnable{
 
     @Override
     public void run() {
+        /**把各个属性从qts原本的数据对象中提取出来，然后利用提取的数值设置avro对象**/
 
         int localTimeStamp = data.LocalTimeStamp;
         String quotationFlag = byteArr2String(data.QuotationFlag);
@@ -50,8 +51,6 @@ public class SZorderWrite implements Runnable{
         orderdata.setOrderCode(OrderCode);
         orderdata.setOrderType(OrderType);
 
-
-
         ProducerRecord<String, SZorder> record = new ProducerRecord<String, SZorder>(this.code_tablename,orderdata);
         try{
 //            Kafka.producers.get(this.thread_id).send(record).get();
@@ -62,10 +61,6 @@ public class SZorderWrite implements Runnable{
             e.printStackTrace();
             System.out.println("code order send to kafka failed" + this.code +", " + Time);
         }
-
-
-
-
 
 //        MongoCollection<Document> collection = MongoDB.dbPool.get(this.thread_id).getCollection(this.code_tablename);
 //        Document doc = new Document("code", code)

@@ -25,6 +25,7 @@ public class HangQing_SZwriter implements Runnable{
 
     @Override
     public void run() {
+        /**把各个属性从qts原本的数据对象中提取出来，然后利用提取的数值设置avro对象**/
 
         int localTimeStamp = data.LocalTimeStamp;
         String quotationFlag = byteArr2String(data.QuotationFlag);
@@ -72,17 +73,6 @@ public class HangQing_SZwriter implements Runnable{
         double WtAvgRateUpdown = data.WtAvgRateUpdown;
         double PreWtAvgRate = data.PreWtAvgRate;
 
-
-
-
-
-
-
-
-
-
-
-
         HangQing data_ = new HangQing();
 
         data_.setLocalTimeStamp(localTimeStamp);
@@ -120,8 +110,6 @@ public class HangQing_SZwriter implements Runnable{
         data_.setSellLevelNo(SellLevelNo);
 
         data_.setSellLevelQueueNo01(SellLevelQueueNo01);
-
-
 
         ArrayList<Double> SellLevelQueueArray = new ArrayList<>();
         for (int i=0;i<SellLevelQueue.length;i++)
@@ -222,11 +210,7 @@ public class HangQing_SZwriter implements Runnable{
 //            sellLevelarray.add(avrodata);
 //        }
 //        data_.setSellLevel(sellLevelarray);
-//
-//
-//
-//
-//
+
 //        ArrayList<BuySellLevelIn3avro> buyLevelarray = new ArrayList<>();
 //        for(int i=0;i<BuyLevel.length;i++){
 //            BuySellLevelIn3avro avrodata = new BuySellLevelIn3avro();
@@ -237,11 +221,6 @@ public class HangQing_SZwriter implements Runnable{
 //            buyLevelarray.add(avrodata);
 //        }
 //        data_.setBuyLevel(buyLevelarray);
-//
-//
-//
-
-
 
 
         ProducerRecord<String, HangQing> record = new ProducerRecord<String, HangQing>(this.code_tablename, data_);
@@ -256,7 +235,6 @@ public class HangQing_SZwriter implements Runnable{
             e.printStackTrace();
             System.out.println("code send to kafka failed" + this.code +", " + Time);
         }
-
 
     }
 

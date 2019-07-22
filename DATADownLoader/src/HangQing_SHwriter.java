@@ -25,7 +25,7 @@ public class HangQing_SHwriter implements Runnable{
 
     @Override
     public void run() {
-
+        /**把各个属性从qts原本的数据对象中提取出来，然后利用提取的数值设置avro对象**/
 
         int localTimeStamp = data.LocalTimeStamp;
         String quotationFlag = byteArr2String(data.QuotationFlag);
