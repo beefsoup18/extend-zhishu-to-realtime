@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DATADownLoader:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DATADownLoader_jar</output-path>
+    <root id="archive" name="DATADownLoader.jar">
+      <element id="module-output" name="DATADownLoader" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/slf4j-api-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka-clients-1.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/log4j-1.2.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/avro-compiler-1.8.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/qtsapi-2.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.11-1.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/slf4j-log4j12-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-core-asl-1.9.13.jar" path-in-jar="/" />
+      <element id="library" level="project" name="mongodb-driver-3.6.3" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/scala-library-2.11.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-mapper-asl-1.9.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/mongo-java-driver-3.6.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/avro-1.8.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/metrics-core-2.2.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

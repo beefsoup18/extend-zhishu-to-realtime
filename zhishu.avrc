@@ -1,0 +1,33 @@
+
+
+{
+"namespace":"wangzitian.realtime",
+"type":"record",
+"name":"ZhiShuHangQing",
+"fields":[
+{"name":"LocalTimeStamp", "type":"int"},
+{"name":"QuotationFlag", "type":["string", "null"]},
+{"name":"Time", "type":["long","null"]},
+{"name":"Symbol", "type":"string"},
+{"name":"PreClosePrice", "type":["double", "null"]},
+{"name":"OpenPrice", "type":["double", "null"]},
+{"name":"HighPrice", "type":["double", "null"]},
+{"name":"LowPrice", "type":["double", "null"]},
+{"name":"LastPrice", "type":["double", "null"]},
+{"name":"TotalVolume", "type":["double", "null"]},
+
+
+{"name":"PacketTimeStampSH_SH", "type":["long", "null"]},
+{"name":"TradeTime_SH","type":["int","null"]},  
+{"name":"TotalAmount_SH", "type":["double", "null"]},
+{"name":"ClosePrice_SH", "type":["double", "null"]},
+
+{"name":"SymbolSource_SZ", "type":["string","null"]},
+{"name":"SecurityPhaseTag_SZ", "type":["string", "null"]},
+{"name":"TotalNo_SZ", "type":["long", "null"]},
+{"name":"SampleNo_SZ", "type":["long", "null"]}
+
+]
+
+}
+
