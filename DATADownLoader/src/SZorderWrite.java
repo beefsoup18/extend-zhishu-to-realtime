@@ -79,7 +79,6 @@ public class SZorderWrite implements Runnable{
 //                .append("TradeType", TradeType);
 //
 //        collection.insertOne(doc);
-
     }
 
 

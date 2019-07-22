@@ -64,12 +64,7 @@ public class SHwrite implements Runnable{
             System.out.println("code send to kafka failed" + this.code +", " + tradeTime);
         }
 
-
-
-
 /*
-
-
         MongoCollection<Document> collection = MongoDB.dbPool.get(this.thread_id).getCollection(this.code_tablename);
         Document doc = new Document("code", code)
                 .append("buyorderid", buyID)
