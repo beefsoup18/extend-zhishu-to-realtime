@@ -1,4 +1,6 @@
 
+/**成交数据的Kafka生产者**/
+
 import org.apache.kafka.clients.producer.Callback;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;

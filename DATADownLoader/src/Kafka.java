@@ -172,6 +172,7 @@ public class Kafka {
 
     }
 
+
     public static void buildOrderOnlyProducers(){
         Properties kafkaProps = new Properties();
         kafkaProps.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, Kafka.second_boker_url);
@@ -197,7 +198,9 @@ public class Kafka {
 
     }
 
+
     public static void buildSingleProducer(){
+        /**Kafka中处理成交数据的生产者**/
         Properties kafkaProps = new Properties();
         kafkaProps.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, Kafka.boker_url);
         kafkaProps.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer");
@@ -224,5 +227,31 @@ public class Kafka {
 
     }
 
+
+    public static void buildZhiShuHangQingOnlyProducers(){
+        Properties kafkaProps = new Properties();
+        kafkaProps.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, Kafka.second_boker_url);
+        kafkaProps.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer");
+        kafkaProps.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, ZhiShuHangQingSerializer.class.getName());
+        kafkaProps.put("linger.ms", 15);
+//        kafkaProps.put("compression.type", "gzip");
+        kafkaProps.put("buffer.memory", Long.valueOf("335544320")*5);
+        kafkaProps.put("send.buffer.bytes", 131072*15);
+        kafkaProps.put("receive.buffer.bytes", 32678*15);
+        kafkaProps.put("request.timeout.ms", 45000);
+
+
+        kafkaProps.put("acks", "1");
+//        kafkaProps.put("batch.size", 500);
+        kafkaProps.put("retry.backoff.ms", 250);
+        kafkaProps.put("retries", Integer.MAX_VALUE);
+//        kafkaProps.put("retries", 1);
+        kafkaProps.put("max.block.ms", Long.MAX_VALUE);
+        kafkaProps.put("max.in.flight.requests.per.connection", 1);
+        kafkaProps.put("log.message.timestamp.type", "LogAppendTime");
+
+        Kafka.zhishuhangqingOnly_producer = new KafkaProducer<String, ZhiShu>(kafkaProps);
+
+    }
 
 }

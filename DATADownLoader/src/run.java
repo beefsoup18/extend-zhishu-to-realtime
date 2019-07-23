@@ -33,10 +33,12 @@ public class run {
         int total_num = Codes.code_talbe_names.size();
         System.out.println("Total codes are:"+total_num);
 
+        //构建Kafka生产者，其中实现了序列化
         Kafka.buildSingleProducer();
-
         Kafka.buildOrderOnlyProducers();
         Kafka.buildHangQingOnlyProducers();
+        Kafka.buildZhiShuHangQingOnlyProducers();
+
         Codes.buildGLThreadsPool();
 
         IGTAQTSCallbackBase callback = new GTACallbackBase();

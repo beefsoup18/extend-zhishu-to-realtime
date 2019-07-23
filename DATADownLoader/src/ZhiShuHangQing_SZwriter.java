@@ -60,11 +60,11 @@ public class ZhiShuHangQing_SZwriter implements Runnable{
         data_.setSampleNo(SampleNo);
 
 
-        ProducerRecord<String, ZhiShuHangQing> record = new ProducerRecord<String, ZhiShuHangQing>(this.code_tablename,data_);
+        ProducerRecord<String, ZhiShuHangQing> record = new ProducerRecord<String, ZhiShu>(this.code_tablename,data_);
         try{
 //            Kafka.producers.get(this.thread_id).send(record, new ProducerCallback(transac, this.code_tablename));
 //            Kafka.producers.get(this.thread_id).send(record).get();
-            Kafka.zhishuhangqingOnly_producer.send(record, new HqPrducerCallback());
+            Kafka.zhishuhangqingOnly_producer.send(record, new ZhiShuHangQingPrducerCallback());
 //                Kafka.single_producer.send(record, new ProducerCallback(transac, this.code_tablename));
             System.out.println("sending");
 //            Kafka.hangqingOnly_producer.send(record).get();
