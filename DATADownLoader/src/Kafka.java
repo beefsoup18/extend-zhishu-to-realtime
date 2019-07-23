@@ -4,6 +4,7 @@ import java.util.concurrent.ExecutionException;
 import kafkaProc.HangQingSerializer;
 import kafkaProc.OrderSerializer;
 import kafkaProc.TransacSerilizer;
+import kafkaProc.ZhiShuHangQingSerializer;
 import org.apache.kafka.clients.admin.*;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
@@ -239,7 +240,6 @@ public class Kafka {
         kafkaProps.put("send.buffer.bytes", 131072*15);
         kafkaProps.put("receive.buffer.bytes", 32678*15);
         kafkaProps.put("request.timeout.ms", 45000);
-
 
         kafkaProps.put("acks", "1");
 //        kafkaProps.put("batch.size", 500);
