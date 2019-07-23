@@ -14,7 +14,7 @@ import org.apache.avro.message.SchemaStore;
 @org.apache.avro.specific.AvroGenerated
 public class ZhiShu extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
     private static final long serialVersionUID = -4601268453219323643L;
-    public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"ZhiShu\",\"namespace\":\"wangzitian.realtime\",\"fields\":[{\"name\":\"LocalTimeStamp\",\"type\":\"int\"},{\"name\":\"QuotationFlag\",\"type\":[\"string\",\"null\"]},{\"name\":\"Time\",\"type\":[\"long\",\"null\"]},{\"name\":\"Symbol\",\"type\":\"string\"},{\"name\":\"PreClosePrice\",\"type\":[\"double\",\"null\"]},{\"name\":\"OpenPrice\",\"type\":[\"double\",\"null\"]},{\"name\":\"HighPrice\",\"type\":[\"double\",\"null\"]},{\"name\":\"LowPrice\",\"type\":[\"double\",\"null\"]},{\"name\":\"LastPrice\",\"type\":[\"double\",\"null\"]},{\"name\":\"TotalVolume\",\"type\":[\"double\",\"null\"]},{\"name\":\"PacketTimeStampSH_SH\",\"type\":[\"long\",\"null\"]},{\"name\":\"TradeTime_SH\",\"type\":[\"int\",\"null\"]},{\"name\":\"TotalAmount_SH\",\"type\":[\"double\",\"null\"]},{\"name\":\"ClosePrice_SH\",\"type\":[\"double\",\"null\"]},{\"name\":\"SymbolSource_SZ\",\"type\":[\"string\",\"null\"]},{\"name\":\"SecurityPhaseTag_SZ\",\"type\":[\"string\",\"null\"]},{\"name\":\"TotalNo_SZ\",\"type\":[\"long\",\"null\"]},{\"name\":\"SampleNo_SZ\",\"type\":[\"long\",\"null\"]}]}");
+    public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"ZhiShu\",\"namespace\":\"wangzitian.realtime\",\"fields\":[{\"name\":\"LocalTimeStamp\",\"type\":\"int\"},{\"name\":\"QuotationFlag\",\"type\":[\"string\",\"null\"]},{\"name\":\"Time\",\"type\":[\"long\",\"null\"]},{\"name\":\"Symbol\",\"type\":\"string\"},{\"name\":\"PreClosePrice\",\"type\":[\"double\",\"null\"]},{\"name\":\"OpenPrice\",\"type\":[\"double\",\"null\"]},{\"name\":\"HighPrice\",\"type\":[\"double\",\"null\"]},{\"name\":\"LowPrice\",\"type\":[\"double\",\"null\"]},{\"name\":\"LastPrice\",\"type\":[\"double\",\"null\"]},{\"name\":\"TotalVolume\",\"type\":[\"double\",\"null\"]},{\"name\":\"PacketTimeStamp_SH\",\"type\":[\"long\",\"null\"]},{\"name\":\"TradeTime_SH\",\"type\":[\"int\",\"null\"]},{\"name\":\"TotalAmount_SH\",\"type\":[\"double\",\"null\"]},{\"name\":\"ClosePrice_SH\",\"type\":[\"double\",\"null\"]},{\"name\":\"SymbolSource_SZ\",\"type\":[\"string\",\"null\"]},{\"name\":\"SecurityPhaseTag_SZ\",\"type\":[\"string\",\"null\"]},{\"name\":\"TotalNo_SZ\",\"type\":[\"long\",\"null\"]},{\"name\":\"SampleNo_SZ\",\"type\":[\"long\",\"null\"]}]}");
     public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
 
     private static SpecificData MODEL$ = new SpecificData();
@@ -61,7 +61,7 @@ public class ZhiShu extends org.apache.avro.specific.SpecificRecordBase implemen
     @Deprecated public java.lang.Double LowPrice;
     @Deprecated public java.lang.Double LastPrice;
     @Deprecated public java.lang.Double TotalVolume;
-    @Deprecated public java.lang.Long PacketTimeStampSH_SH;
+    @Deprecated public java.lang.Long PacketTimeStamp_SH;
     @Deprecated public java.lang.Integer TradeTime_SH;
     @Deprecated public java.lang.Double TotalAmount_SH;
     @Deprecated public java.lang.Double ClosePrice_SH;
@@ -89,7 +89,7 @@ public class ZhiShu extends org.apache.avro.specific.SpecificRecordBase implemen
      * @param LowPrice The new value for LowPrice
      * @param LastPrice The new value for LastPrice
      * @param TotalVolume The new value for TotalVolume
-     * @param PacketTimeStampSH_SH The new value for PacketTimeStampSH_SH
+     * @param PacketTimeStamp_SH The new value for PacketTimeStamp_SH
      * @param TradeTime_SH The new value for TradeTime_SH
      * @param TotalAmount_SH The new value for TotalAmount_SH
      * @param ClosePrice_SH The new value for ClosePrice_SH
@@ -98,7 +98,7 @@ public class ZhiShu extends org.apache.avro.specific.SpecificRecordBase implemen
      * @param TotalNo_SZ The new value for TotalNo_SZ
      * @param SampleNo_SZ The new value for SampleNo_SZ
      */
-    public ZhiShu(java.lang.Integer LocalTimeStamp, java.lang.CharSequence QuotationFlag, java.lang.Long Time, java.lang.CharSequence Symbol, java.lang.Double PreClosePrice, java.lang.Double OpenPrice, java.lang.Double HighPrice, java.lang.Double LowPrice, java.lang.Double LastPrice, java.lang.Double TotalVolume, java.lang.Long PacketTimeStampSH_SH, java.lang.Integer TradeTime_SH, java.lang.Double TotalAmount_SH, java.lang.Double ClosePrice_SH, java.lang.CharSequence SymbolSource_SZ, java.lang.CharSequence SecurityPhaseTag_SZ, java.lang.Long TotalNo_SZ, java.lang.Long SampleNo_SZ) {
+    public ZhiShu(java.lang.Integer LocalTimeStamp, java.lang.CharSequence QuotationFlag, java.lang.Long Time, java.lang.CharSequence Symbol, java.lang.Double PreClosePrice, java.lang.Double OpenPrice, java.lang.Double HighPrice, java.lang.Double LowPrice, java.lang.Double LastPrice, java.lang.Double TotalVolume, java.lang.Long PacketTimeStamp_SH, java.lang.Integer TradeTime_SH, java.lang.Double TotalAmount_SH, java.lang.Double ClosePrice_SH, java.lang.CharSequence SymbolSource_SZ, java.lang.CharSequence SecurityPhaseTag_SZ, java.lang.Long TotalNo_SZ, java.lang.Long SampleNo_SZ) {
         this.LocalTimeStamp = LocalTimeStamp;
         this.QuotationFlag = QuotationFlag;
         this.Time = Time;
@@ -109,7 +109,7 @@ public class ZhiShu extends org.apache.avro.specific.SpecificRecordBase implemen
         this.LowPrice = LowPrice;
         this.LastPrice = LastPrice;
         this.TotalVolume = TotalVolume;
-        this.PacketTimeStampSH_SH = PacketTimeStampSH_SH;
+        this.PacketTimeStamp_SH = PacketTimeStamp_SH;
         this.TradeTime_SH = TradeTime_SH;
         this.TotalAmount_SH = TotalAmount_SH;
         this.ClosePrice_SH = ClosePrice_SH;
@@ -133,7 +133,7 @@ public class ZhiShu extends org.apache.avro.specific.SpecificRecordBase implemen
             case 7: return LowPrice;
             case 8: return LastPrice;
             case 9: return TotalVolume;
-            case 10: return PacketTimeStampSH_SH;
+            case 10: return PacketTimeStamp_SH;
             case 11: return TradeTime_SH;
             case 12: return TotalAmount_SH;
             case 13: return ClosePrice_SH;
@@ -159,7 +159,7 @@ public class ZhiShu extends org.apache.avro.specific.SpecificRecordBase implemen
             case 7: LowPrice = (java.lang.Double)value$; break;
             case 8: LastPrice = (java.lang.Double)value$; break;
             case 9: TotalVolume = (java.lang.Double)value$; break;
-            case 10: PacketTimeStampSH_SH = (java.lang.Long)value$; break;
+            case 10: PacketTimeStamp_SH = (java.lang.Long)value$; break;
             case 11: TradeTime_SH = (java.lang.Integer)value$; break;
             case 12: TotalAmount_SH = (java.lang.Double)value$; break;
             case 13: ClosePrice_SH = (java.lang.Double)value$; break;
@@ -332,19 +332,19 @@ public class ZhiShu extends org.apache.avro.specific.SpecificRecordBase implemen
     }
 
     /**
-     * Gets the value of the 'PacketTimeStampSH_SH' field.
-     * @return The value of the 'PacketTimeStampSH_SH' field.
+     * Gets the value of the 'PacketTimeStamp_SH' field.
+     * @return The value of the 'PacketTimeStamp_SH' field.
      */
-    public java.lang.Long getPacketTimeStampSHSH() {
-        return PacketTimeStampSH_SH;
+    public java.lang.Long getPacketTimeStampSH() {
+        return PacketTimeStamp_SH;
     }
 
     /**
-     * Sets the value of the 'PacketTimeStampSH_SH' field.
+     * Sets the value of the 'PacketTimeStamp_SH' field.
      * @param value the value to set.
      */
-    public void setPacketTimeStampSHSH(java.lang.Long value) {
-        this.PacketTimeStampSH_SH = value;
+    public void setPacketTimeStampSH(java.lang.Long value) {
+        this.PacketTimeStamp_SH = value;
     }
 
     /**
@@ -501,7 +501,7 @@ public class ZhiShu extends org.apache.avro.specific.SpecificRecordBase implemen
         private java.lang.Double LowPrice;
         private java.lang.Double LastPrice;
         private java.lang.Double TotalVolume;
-        private java.lang.Long PacketTimeStampSH_SH;
+        private java.lang.Long PacketTimeStamp_SH;
         private java.lang.Integer TradeTime_SH;
         private java.lang.Double TotalAmount_SH;
         private java.lang.Double ClosePrice_SH;
@@ -561,8 +561,8 @@ public class ZhiShu extends org.apache.avro.specific.SpecificRecordBase implemen
                 this.TotalVolume = data().deepCopy(fields()[9].schema(), other.TotalVolume);
                 fieldSetFlags()[9] = true;
             }
-            if (isValidValue(fields()[10], other.PacketTimeStampSH_SH)) {
-                this.PacketTimeStampSH_SH = data().deepCopy(fields()[10].schema(), other.PacketTimeStampSH_SH);
+            if (isValidValue(fields()[10], other.PacketTimeStamp_SH)) {
+                this.PacketTimeStamp_SH = data().deepCopy(fields()[10].schema(), other.PacketTimeStamp_SH);
                 fieldSetFlags()[10] = true;
             }
             if (isValidValue(fields()[11], other.TradeTime_SH)) {
@@ -641,8 +641,8 @@ public class ZhiShu extends org.apache.avro.specific.SpecificRecordBase implemen
                 this.TotalVolume = data().deepCopy(fields()[9].schema(), other.TotalVolume);
                 fieldSetFlags()[9] = true;
             }
-            if (isValidValue(fields()[10], other.PacketTimeStampSH_SH)) {
-                this.PacketTimeStampSH_SH = data().deepCopy(fields()[10].schema(), other.PacketTimeStampSH_SH);
+            if (isValidValue(fields()[10], other.PacketTimeStamp_SH)) {
+                this.PacketTimeStamp_SH = data().deepCopy(fields()[10].schema(), other.PacketTimeStamp_SH);
                 fieldSetFlags()[10] = true;
             }
             if (isValidValue(fields()[11], other.TradeTime_SH)) {
@@ -1065,40 +1065,40 @@ public class ZhiShu extends org.apache.avro.specific.SpecificRecordBase implemen
         }
 
         /**
-         * Gets the value of the 'PacketTimeStampSH_SH' field.
+         * Gets the value of the 'PacketTimeStamp_SH' field.
          * @return The value.
          */
-        public java.lang.Long getPacketTimeStampSHSH() {
-            return PacketTimeStampSH_SH;
+        public java.lang.Long getPacketTimeStampSH() {
+            return PacketTimeStamp_SH;
         }
 
         /**
-         * Sets the value of the 'PacketTimeStampSH_SH' field.
-         * @param value The value of 'PacketTimeStampSH_SH'.
+         * Sets the value of the 'PacketTimeStamp_SH' field.
+         * @param value The value of 'PacketTimeStamp_SH'.
          * @return This builder.
          */
-        public wangzitian.realtime.ZhiShu.Builder setPacketTimeStampSHSH(java.lang.Long value) {
+        public wangzitian.realtime.ZhiShu.Builder setPacketTimeStampSH(java.lang.Long value) {
             validate(fields()[10], value);
-            this.PacketTimeStampSH_SH = value;
+            this.PacketTimeStamp_SH = value;
             fieldSetFlags()[10] = true;
             return this;
         }
 
         /**
-         * Checks whether the 'PacketTimeStampSH_SH' field has been set.
-         * @return True if the 'PacketTimeStampSH_SH' field has been set, false otherwise.
+         * Checks whether the 'PacketTimeStamp_SH' field has been set.
+         * @return True if the 'PacketTimeStamp_SH' field has been set, false otherwise.
          */
-        public boolean hasPacketTimeStampSHSH() {
+        public boolean hasPacketTimeStampSH() {
             return fieldSetFlags()[10];
         }
 
 
         /**
-         * Clears the value of the 'PacketTimeStampSH_SH' field.
+         * Clears the value of the 'PacketTimeStamp_SH' field.
          * @return This builder.
          */
-        public wangzitian.realtime.ZhiShu.Builder clearPacketTimeStampSHSH() {
-            PacketTimeStampSH_SH = null;
+        public wangzitian.realtime.ZhiShu.Builder clearPacketTimeStampSH() {
+            PacketTimeStamp_SH = null;
             fieldSetFlags()[10] = false;
             return this;
         }
@@ -1391,7 +1391,7 @@ public class ZhiShu extends org.apache.avro.specific.SpecificRecordBase implemen
                 record.LowPrice = fieldSetFlags()[7] ? this.LowPrice : (java.lang.Double) defaultValue(fields()[7]);
                 record.LastPrice = fieldSetFlags()[8] ? this.LastPrice : (java.lang.Double) defaultValue(fields()[8]);
                 record.TotalVolume = fieldSetFlags()[9] ? this.TotalVolume : (java.lang.Double) defaultValue(fields()[9]);
-                record.PacketTimeStampSH_SH = fieldSetFlags()[10] ? this.PacketTimeStampSH_SH : (java.lang.Long) defaultValue(fields()[10]);
+                record.PacketTimeStamp_SH = fieldSetFlags()[10] ? this.PacketTimeStamp_SH : (java.lang.Long) defaultValue(fields()[10]);
                 record.TradeTime_SH = fieldSetFlags()[11] ? this.TradeTime_SH : (java.lang.Integer) defaultValue(fields()[11]);
                 record.TotalAmount_SH = fieldSetFlags()[12] ? this.TotalAmount_SH : (java.lang.Double) defaultValue(fields()[12]);
                 record.ClosePrice_SH = fieldSetFlags()[13] ? this.ClosePrice_SH : (java.lang.Double) defaultValue(fields()[13]);

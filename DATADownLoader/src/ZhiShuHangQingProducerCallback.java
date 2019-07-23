@@ -10,9 +10,9 @@ import java.io.IOException;
 import java.util.Date;
 import wangzitian.realtime.ZhiShu;
 
-public class ZhiShuHangQingPrducerCallback implements Callback{
+public class ZhiShuHangQingProducerCallback implements Callback{
 
-    public ZhiShuHangQingPrducerCallback(){
+    public ZhiShuHangQingProducerCallback(){
 
     }
     @Override

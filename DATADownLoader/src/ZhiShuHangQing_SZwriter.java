@@ -27,24 +27,24 @@ public class ZhiShuHangQing_SZwriter implements Runnable{
     public void run() {
         int localTimeStamp = data.LocalTimeStamp;
         String quotationFlag = byteArr2String(data.QuotationFlag);
-        int Time = data.Time;
-        String Symbol = data.Symbol;
+        Long Time = data.Time;
+        String Symbol = byteArr2String(data.Symbol);
         double PreClosePrice = data.PreClosePrice;
         double OpenPrice = data.OpenPrice;
         double HighPrice = data.HighPrice;
         double LowPrice = data.LowPrice;
         double LastPrice = data.LastPrice;
-        long TotalVolume = data.TotalVolume;
+        double TotalVolume = data.TotalVolume;
 
-        String SymbolSource = data.SymbolSource;
-        String SecurityPhaseTag = data.TotalNo;
+        String SymbolSource = byteArr2String(data.SymbolSource);
+        String SecurityPhaseTag = byteArr2String(data.SecurityPhaseTag);
         long TotalNo = data.TotalNo;
         long SampleNo = data.SampleNo;
 
         ZhiShu data_ = new ZhiShu();
 
         data_.setLocalTimeStamp(localTimeStamp);
-        data_.setquotationFlag(quotationFlag);
+        data_.setQuotationFlag(quotationFlag);
         data_.setTime(Time);
         data_.setSymbol(Symbol);
         data_.setPreClosePrice(PreClosePrice);
@@ -54,17 +54,17 @@ public class ZhiShuHangQing_SZwriter implements Runnable{
         data_.setLastPrice(LastPrice);
         data_.setTotalVolume(TotalVolume);
 
-        data_.setSymbolSource(SymbolSource);
-        data_.setSecurityPhaseTag(SecurityPhaseTag);
-        data_.setTotalNo(TotalNo);
-        data_.setSampleNo(SampleNo);
+        data_.setSymbolSourceSZ(SymbolSource);
+        data_.setSecurityPhaseTagSZ(SecurityPhaseTag);
+        data_.setTotalNoSZ(TotalNo);
+        data_.setSampleNoSZ(SampleNo);
 
 
-        ProducerRecord<String, ZhiShuHangQing> record = new ProducerRecord<String, ZhiShu>(this.code_tablename,data_);
+        ProducerRecord<String, ZhiShu> record = new ProducerRecord<String, ZhiShu>(this.code_tablename,data_);
         try{
 //            Kafka.producers.get(this.thread_id).send(record, new ProducerCallback(transac, this.code_tablename));
 //            Kafka.producers.get(this.thread_id).send(record).get();
-            Kafka.zhishuhangqingOnly_producer.send(record, new ZhiShuHangQingPrducerCallback());
+            Kafka.zhishuhangqingOnly_producer.send(record, new ZhiShuHangQingProducerCallback());
 //                Kafka.single_producer.send(record, new ProducerCallback(transac, this.code_tablename));
             System.out.println("sending");
 //            Kafka.hangqingOnly_producer.send(record).get();

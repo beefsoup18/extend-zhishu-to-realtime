@@ -27,7 +27,7 @@ public class Kafka {
     public static KafkaProducer<String, Transactions> single_producer = null;
     public static KafkaProducer<String, SZorder> orderOnly_producer = null;
     public static KafkaProducer<String, HangQing> hangqingOnly_producer = null;
-    public static KafkaProducer<String, HangQing> zhishuhangqingOnly_producer = null;
+    public static KafkaProducer<String, ZhiShu> zhishuhangqingOnly_producer = null;
 
 //    public static Lock backup_lock = new ReentrantLock();
     public static void createTopic() throws ExecutionException, InterruptedException {

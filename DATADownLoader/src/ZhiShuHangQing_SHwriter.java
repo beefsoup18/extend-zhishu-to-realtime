@@ -27,42 +27,42 @@ public class ZhiShuHangQing_SHwriter implements Runnable{
     public void run() {
         int localTimeStamp = data.LocalTimeStamp;
         String quotationFlag = byteArr2String(data.QuotationFlag);
-        int Time = data.Time;
-        String Symbol = data.Symbol;
+        long Time = data.Time;
+        String Symbol = byteArr2String(data.Symbol);
         long PacketTimeStamp = data.PacketTimeStamp;
-        int TradeTime = data.TrateTime;
+        int TradeTime = data.TradeTime;
         double PreClosePrice = data.PreClosePrice;
         double OpenPrice = data.OpenPrice;
         double HighPrice = data.HighPrice;
         double LowPrice = data.LowPrice;
         double LastPrice = data.LastPrice;
         double ClosePrice = data.ClosePrice;
-        long TotalVolume = data.TotalVolume;
+        double TotalVolume = data.TotalVolume;
         double TotalAmout = data.TotalAmount;
 
         ZhiShu data_ = new ZhiShu();
 
         data_.setLocalTimeStamp(localTimeStamp);
-        data_.setquotationFlag(quotationFlag);
+        data_.setQuotationFlag(quotationFlag);
         data_.setTime(Time);
         data_.setSymbol(Symbol);
-        data_.setPacketTimeStamp(PacketTimeStamp);
-        data_.setTradeTime(TradeTime);
+        data_.setPacketTimeStampSH(PacketTimeStamp);
+        data_.setTradeTimeSH(TradeTime);
         data_.setPreClosePrice(PreClosePrice);
         data_.setOpenPrice(OpenPrice);
         data_.setHighPrice(HighPrice);
         data_.setLowPrice(LowPrice);
         data_.setLastPrice(LastPrice);
-        data_.setClosePrice(ClosePrice);
+        data_.setClosePriceSH(ClosePrice);
         data_.setTotalVolume(TotalVolume);
-        data_.setTotalAmout(TotalAmout);
+        data_.setTotalAmountSH(TotalAmout);
 
 
         ProducerRecord<String, ZhiShu> record = new ProducerRecord<String, ZhiShu>(this.code_tablename,data_);
         try{
 //            Kafka.producers.get(this.thread_id).send(record, new ProducerCallback(transac, this.code_tablename));
 //            Kafka.producers.get(this.thread_id).send(record).get();
-            Kafka.zhishuhangqingOnly_producer.send(record, new ZhiShuHangQingPrducerCallback());
+            Kafka.zhishuhangqingOnly_producer.send(record, new ZhiShuHangQingProducerCallback());
 //                Kafka.single_producer.send(record, new ProducerCallback(transac, this.code_tablename));
             System.out.println("sending");
 //            Kafka.hangqingOnly_producer.send(record).get();

@@ -23,8 +23,10 @@ public class run {
     public static void main(String[] args) throws IOException {
         int threads_num = 10;
         Codes.setThreadsNum(threads_num);
-        Codes.setSHlist("./SH_codes.txt");
-        Codes.setSZlist("./SZ_codes.txt");
+        Codes.setSHlist("C:\\Users\\86177\\Documents\\lrt\\新建文件夹\\extend-zhishu-to-realtime\\DATADownLoader\\SH_codes.txt");
+        Codes.setSZlist("C:\\Users\\86177\\Documents\\lrt\\新建文件夹\\extend-zhishu-to-realtime\\DATADownLoader\\SZ_codes.txt");
+//        Codes.setSHlist("./SH_codes.txt");
+//        Codes.setSZlist("./SZ_codes.txt");
 
 
         System.out.println(Codes.SH_string);
