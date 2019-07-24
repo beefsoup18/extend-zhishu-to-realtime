@@ -23,8 +23,8 @@ public class run {
     public static void main(String[] args) throws IOException {
         int threads_num = 10;
         Codes.setThreadsNum(threads_num);
-        Codes.setSHlist("C:\\Users\\86177\\Documents\\lrt\\新建文件夹\\extend-zhishu-to-realtime\\DATADownLoader\\SH_codes.txt");
-        Codes.setSZlist("C:\\Users\\86177\\Documents\\lrt\\新建文件夹\\extend-zhishu-to-realtime\\DATADownLoader\\SZ_codes.txt");
+        Codes.setSHlist("C:\\Users\\beefsoup\\Documents\\extend-zhishu-to-realtime\\DATADownLoader\\SH_codes.txt");
+        Codes.setSZlist("C:\\Users\\beefsoup\\Documents\\extend-zhishu-to-realtime\\DATADownLoader\\SZ_codes.txt");
 //        Codes.setSHlist("./SH_codes.txt");
 //        Codes.setSZlist("./SZ_codes.txt");
 
@@ -52,9 +52,10 @@ public class run {
         baseService.BaseRegisterService("119.147.211.220", (short)8866);
         baseService.BaseRegisterService("180.153.102.99", (short)8888);
         baseService.BaseRegisterService("180.153.102.94", (short)8888);
+        System.out.println("bjzskj_test");
 
         //登录
-        int ret =  baseService.BaseLoginX("bjzskj", "DzqbCjM9", "NetType=0");
+        int ret =  baseService.BaseLoginX("bjzskj_test", "ry5RU5x4", "NetType=0");  //bjzskj  DzqbCjM9
         if (QTSDataType.RetCode.Ret_Success != QTSDataType.RetCode.fetchByCode(ret)) {
             System.out.println("Login error:" + ret);
             System.exit(-1);
