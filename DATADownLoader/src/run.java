@@ -37,10 +37,15 @@ public class run {
 
         //构建Kafka生产者，其中实现了序列化
         Kafka.buildSingleProducer();
+        System.out.println("创建成交数据生产者");
         Kafka.buildOrderOnlyProducers();
+        System.out.println("创建委托数据生产者");
         Kafka.buildHangQingOnlyProducers();
+        System.out.println("创建行情数据生产者");
         Kafka.buildZhiShuHangQingOnlyProducers();
+        System.out.println("创建指数数据生产者");
 
+        System.out.println("创建线程池");
         Codes.buildGLThreadsPool();
 
         IGTAQTSCallbackBase callback = new GTACallbackBase();
@@ -48,6 +53,7 @@ public class run {
         IGTAQTSApi baseService = GTAQTSApiBaseImpl.getInstance().CreateInstance(callback);
         baseService.BaseInit();
         // 4个行情数据接口，自动从能连通的接口取数据
+        System.out.println("连接4个数据接口");
         baseService.BaseRegisterService("119.147.211.219", (short)8866);
         baseService.BaseRegisterService("119.147.211.220", (short)8866);
         baseService.BaseRegisterService("180.153.102.99", (short)8888);
