@@ -18,8 +18,9 @@ import wangzitian.realtime.ZhiShu;
 public class Kafka {
 //    public static String boker_url = new String("192.168.1.101:9092,192.168.1.101:9091,192.168.1.101:9093");
 //    public static String boker_url = new String("127.0.0.1:9092");
-    public static String second_boker_url = new String("192.168.199.209:9092,192.168.199.209:9091,192.168.199.209:9093");
+//    public static String second_boker_url = new String("192.168.199.209:9092,192.168.199.209:9091,192.168.199.209:9093");
 //    public static String boker_url = new String("192.168.1.101:9092,192.168.1.101:9091,192.168.1.101:9093");
+    public static String second_boker_url = new String("localhost:9092");
     public static String boker_url = new String(second_boker_url);//("192.168.1.101:9092,192.168.1.101:9091,192.168.1.101:9093");
     public static ArrayList<KafkaProducer<String, Transactions>> producers = new ArrayList<KafkaProducer<String, Transactions>>();
     public static ArrayList<KafkaProducer<String, SZorder>> OrderProducers = new ArrayList<KafkaProducer<String, SZorder>>();

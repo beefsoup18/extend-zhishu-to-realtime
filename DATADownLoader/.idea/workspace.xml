@@ -6,9 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba1ed6f7-b132-48b1-b7b6-4a8d9d7097ea" name="Default" comment="补充了kafkaProc路径下的反序列化类，在Kafka.java中修补bug">
+    <list default="true" id="ba1ed6f7-b132-48b1-b7b6-4a8d9d7097ea" name="Default" comment="查找出现log4j错误的原因">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/run.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kafka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kafka.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+            <state relative-caret-position="-380">
+              <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/kafkaProc/HangQingDesrializer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -57,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Kafka.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="100">
+              <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#createTopic#0;class#Kafka#0" />
@@ -167,8 +168,8 @@
         <option value="$PROJECT_DIR$/src/ZhiShuHangQing_SHwriter.java" />
         <option value="$PROJECT_DIR$/src/ZhiShuHangQing_SZwriter.java" />
         <option value="$PROJECT_DIR$/src/Codes.java" />
-        <option value="$PROJECT_DIR$/src/Kafka.java" />
         <option value="$PROJECT_DIR$/src/run.java" />
+        <option value="$PROJECT_DIR$/src/Kafka.java" />
       </list>
     </option>
   </component>
@@ -193,8 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,6 +210,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563851717469</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="查找出现log4j错误的原因">
+      <created>1563981550077</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563981550077</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -382,9 +390,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30925325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31574675" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -399,10 +406,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3285968" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
@@ -457,7 +464,8 @@
     <MESSAGE value="补充了ZhiShuHangQingDistributor" />
     <MESSAGE value="补充了kafkaProc路径下的序列化类，在Kafka.java中添加生产者" />
     <MESSAGE value="补充了kafkaProc路径下的反序列化类，在Kafka.java中修补bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="补充了kafkaProc路径下的反序列化类，在Kafka.java中修补bug" />
+    <MESSAGE value="查找出现log4j错误的原因" />
+    <option name="LAST_COMMIT_MESSAGE" value="查找出现log4j错误的原因" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -923,13 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kafkaProc/HangQingSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DateUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -946,14 +947,31 @@
     <entry file="file://$PROJECT_DIR$/src/kafkaProc/HangQingDesrializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kafkaProc/HangQingSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kafka.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="100">
+          <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#createTopic#0;class#Kafka#0" />
@@ -963,16 +981,6 @@
             <element signature="method#buildHangQingOnlyProducers#0;class#Kafka#0" />
             <element signature="method#buildOrderOnlyProducers#0;class#Kafka#0" />
             <element signature="method#buildSingleProducer#0;class#Kafka#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
