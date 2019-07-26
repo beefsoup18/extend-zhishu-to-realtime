@@ -58,10 +58,10 @@ public class run {
         baseService.BaseRegisterService("119.147.211.220", (short)8866);
         baseService.BaseRegisterService("180.153.102.99", (short)8888);
         baseService.BaseRegisterService("180.153.102.94", (short)8888);
-        System.out.println("bjzskj_test");
 
         //登录
-        int ret =  baseService.BaseLoginX("bjzskj_test", "ry5RU5x4", "NetType=0");  //bjzskj  DzqbCjM9
+//        int ret =  baseService.BaseLoginX("bjzskj", "DzqbCjM9", "NetType=0");  //正式账号
+        int ret =  baseService.BaseLoginX("bjzskj_test", "ry5RU5x4", "NetType=0");  //测试账号
         if (QTSDataType.RetCode.Ret_Success != QTSDataType.RetCode.fetchByCode(ret)) {
             System.out.println("Login error:" + ret);
             System.exit(-1);
