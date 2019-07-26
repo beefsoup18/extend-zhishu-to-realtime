@@ -14,7 +14,10 @@ public class Codes {
     public static int thread_num = 1;
     public static HashMap<String, Integer> code_threadID = new HashMap<String,Integer>();
     public static String SZ_string = new String();
-    public static String SH_string = new String();
+    public static String SH_string = new String();  //
+    public static String zhishu_SZ_string = new String();
+    public static String zhishu_SH_string = new String();
+
     public static ArrayList<String> code_talbe_names = new ArrayList<String>();
 
     public static ArrayList<ExecutorService> threads_array = new ArrayList<ExecutorService>();
@@ -74,6 +77,61 @@ public class Codes {
         }
 
         Codes.SH_string = sb.toString();
+        br.close();reader.close();
+    }
+
+
+    public static void setzhishuSZlist(String filename) throws IOException {
+        /*从本地读取深市股票列表，读取filename文件*/
+        File file = new File(filename);
+        if(!file.exists()){
+            System.out.println("zhishu_SZ file not existed");
+            throw new FileNotFoundException();
+        }
+        FileReader reader = new FileReader(file);
+        BufferedReader br = new BufferedReader(reader);
+        String str = null;
+        StringBuilder sb = new StringBuilder();
+        while((str=br.readLine())!=null) {
+            //System.out.println(str);
+            String code = new String(str.split(",")[0]);
+            Codes.code_talbe_names.add("SZ" + code);
+            sb.append(code + ",");
+            int thread_id = Codes.code_cnt % Codes.thread_num;
+            Codes.code_threadID.put(code+".SZ", thread_id);
+            Codes.code_cnt += 1;
+        }
+        Codes.zhishu_SZ_string = sb.toString();
+        br.close();reader.close();
+    }
+
+    public static void setzhishuSHlist(String filename) throws IOException {
+        /*从本地读取沪市股票列表，读取filename文件*/
+        File file = new File(filename);
+        System.out.println(filename);
+        if(!file.exists()){
+            System.out.println("zhishu_SH file not existed");
+            throw new FileNotFoundException();
+        }
+
+        FileReader reader = new FileReader(file);
+        BufferedReader br = new BufferedReader(reader);
+
+        String str = null;
+        StringBuilder sb = new StringBuilder();
+        while((str=br.readLine())!=null) {
+            //System.out.println(str);
+            String code = new String(str.split(",")[0]);
+            Codes.code_talbe_names.add("SH" + code);
+            sb.append(code + ",");
+
+            int thread_id = Codes.code_cnt % Codes.thread_num;
+            Codes.code_threadID.put(code+".SH", thread_id);
+            Codes.code_cnt += 1;
+
+        }
+
+        Codes.zhishu_SH_string = sb.toString();
         br.close();reader.close();
     }
 

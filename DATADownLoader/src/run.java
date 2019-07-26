@@ -25,6 +25,8 @@ public class run {
         Codes.setThreadsNum(threads_num);
         Codes.setSHlist("C:\\Users\\beefsoup\\Documents\\extend-zhishu-to-realtime\\DATADownLoader\\SH_codes.txt");
         Codes.setSZlist("C:\\Users\\beefsoup\\Documents\\extend-zhishu-to-realtime\\DATADownLoader\\SZ_codes.txt");
+        Codes.setzhishuSZlist("C:\\Users\\beefsoup\\Documents\\extend-zhishu-to-realtime\\DATADownLoader\\zhishu_SZ_codes.txt");
+        Codes.setzhishuSHlist("C:\\Users\\beefsoup\\Documents\\extend-zhishu-to-realtime\\DATADownLoader\\zhishu_SH_codes.txt");
 //        Codes.setSHlist("./SH_codes.txt");
 //        Codes.setSZlist("./SZ_codes.txt");
 
