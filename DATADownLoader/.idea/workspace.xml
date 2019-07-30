@@ -6,24 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba1ed6f7-b132-48b1-b7b6-4a8d9d7097ea" name="Default" comment="调试，排查为什么没有创建指数行情Topic的原因">
+    <list default="true" id="ba1ed6f7-b132-48b1-b7b6-4a8d9d7097ea" name="Default" comment="调试，排查为什么报thread的错误">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/Distributing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/Distributing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/HqPrducerCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/HqPrducerCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/Kafka.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/Kafka.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/OrderDistributor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/OrderDistributor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/OrderPrducerCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/OrderPrducerCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/ProducerCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/ProducerCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQingDistributor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQingDistributor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQingProducerCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQingProducerCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/run.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GTACallbackBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GTACallbackBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HangQing_SHwriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HangQing_SHwriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HangQing_SZwriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HangQing_SZwriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ZhiShuHangQingDistributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZhiShuHangQingDistributor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ZhiShuHangQing_SHwriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZhiShuHangQing_SHwriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ZhiShuHangQing_SZwriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZhiShuHangQing_SZwriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wangzitian/realtime/ZhiShu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wangzitian/realtime/ZhiShu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/GTACallbackBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/GTACallbackBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/HangQing_SHwriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/HangQing_SHwriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/HangQing_SZwriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/HangQing_SZwriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQing_SHwriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQing_SHwriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQing_SZwriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQing_SZwriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/wangzitian/realtime/ZhiShu$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/wangzitian/realtime/ZhiShu$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/wangzitian/realtime/ZhiShu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/wangzitian/realtime/ZhiShu.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/GLBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/src/run.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="47">
-              <caret line="139" column="28" lean-forward="true" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
+              <caret line="139" column="28" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,22 +67,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQingDistributor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="172">
+              <caret line="41" column="67" lean-forward="true" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+            <state relative-caret-position="152">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#480#496#0" expanded="true" />
                 <element signature="method#setSHlist#0;class#Codes#0" />
                 <element signature="method#setzhishuSZlist#0;class#Codes#0" />
                 <element signature="method#setzhishuSHlist#0;class#Codes#0" />
@@ -103,10 +95,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Kafka.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3467">
+              <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1385#1417#0" expanded="true" />
+                <element signature="e#9566#10781#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQing_SHwriter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+              <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQing_SZwriter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="30" />
+              <caret line="54" column="30" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -481,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564459859358</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="调试，排查为什么报thread的错误">
+      <created>1564477124133</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564477124133</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -489,9 +502,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34253246" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34253246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -501,7 +513,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.24333926" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38010657" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38010657" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -569,7 +581,8 @@
     <MESSAGE value="成功登录测试账号" />
     <MESSAGE value="增加了指数代码列表并开始调试" />
     <MESSAGE value="调试，排查为什么没有创建指数行情Topic的原因" />
-    <option name="LAST_COMMIT_MESSAGE" value="调试，排查为什么没有创建指数行情Topic的原因" />
+    <MESSAGE value="调试，排查为什么报thread的错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="调试，排查为什么报thread的错误" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1004,7 +1017,7 @@
     <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQing_SZwriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="30" />
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1028,22 +1041,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kafka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4048">
-          <caret line="249" column="40" lean-forward="true" selection-start-line="249" selection-start-column="40" selection-end-line="249" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1385#1417#0" expanded="true" />
-            <element signature="e#9566#10781#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQing_SHwriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1053,7 +1054,7 @@
     <entry file="file://$PROJECT_DIR$/src/run.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
-          <caret line="139" column="28" lean-forward="true" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
+          <caret line="139" column="28" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1103,32 +1104,45 @@
     <entry file="file://$PROJECT_DIR$/src/GLBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQingDistributor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Codes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+        <state relative-caret-position="152">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#480#496#0" expanded="true" />
             <element signature="method#setSHlist#0;class#Codes#0" />
             <element signature="method#setzhishuSZlist#0;class#Codes#0" />
             <element signature="method#setzhishuSHlist#0;class#Codes#0" />
             <element signature="method#buildGLThreadsPool#0;class#Codes#0" />
             <element signature="method#closeGLThreadPool#0;class#Codes#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kafka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3467">
+          <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1385#1417#0" expanded="true" />
+            <element signature="e#9566#10781#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQingDistributor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="41" column="67" lean-forward="true" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
         </state>
       </provider>
     </entry>
