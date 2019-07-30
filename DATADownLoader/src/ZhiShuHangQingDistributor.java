@@ -12,11 +12,11 @@ public class ZhiShuHangQingDistributor implements Runnable{
         ZhiShuHangQingHolder data = null;
         int thread_id = 0;
         while(GLBuffer.working_flag) {
-            data = GLBuffer.zhishuhangqingBuffer.poll();
+            data = GLBuffer.zhishuhangqingBuffer.poll();  //这里没取到数据
             if(data==null){
                 try {
                     Thread.sleep(1);
-//                    System.out.println("ZhiShuHangQing Buffer Queue Empty! {}{}{}");
+                    System.out.println("ZhiShuHangQing Buffer Queue Empty!");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

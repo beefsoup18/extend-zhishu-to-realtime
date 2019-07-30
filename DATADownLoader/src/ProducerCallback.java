@@ -43,9 +43,9 @@ public class ProducerCallback implements Callback{
 
                 }
 
-        else {
-            System.out.println("send complete.-------------------LOL-------------------------LOL-------------------");
-        }
+//        else {
+//            System.out.println("send complete.-------------------LOL-------------------------LOL-------------------");
+//        }
 
     }
 

@@ -34,12 +34,11 @@ public class ZhiShuHangQingProducerCallback implements Callback{
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
-
+            System.out.println("send failed.!!!!!!!!!!! zhishu");
         }
 
         else {
-            System.out.println("send complete.KKKKKKKKKKKKKKKKKKKKKKKKKKKKQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ");
+            System.out.println("send complete.-----------LOL------------------");
         }
 
     }

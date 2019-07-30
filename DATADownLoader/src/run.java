@@ -33,6 +33,9 @@ public class run {
 
         System.out.println(Codes.SH_string);
         System.out.println(Codes.SZ_string);
+        System.out.println(Codes.zhishu_SH_string);
+        System.out.println(Codes.zhishu_SZ_string);
+//        System.exit(-5);
 
         int total_num = Codes.code_talbe_names.size();
         System.out.println("Total codes are:"+total_num);
@@ -111,13 +114,13 @@ public class run {
         }
 
         //订阅上交所指数行情
-        ret = baseService.BaseSubscribe(MsgType.SSEL2_Index.code, Codes.SH_string);
+        ret = baseService.BaseSubscribe(MsgType.SSEL2_Index.code, Codes.zhishu_SH_string);
         if (RetCode.Ret_Success != RetCode.fetchByCode(ret)) {
-            System.out.println("Subscribe SH Index Market error!");
+            System.out.println("Subscribe SH zhishu error!");
             System.exit(-1);
         }
         else {
-            System.out.println("Subscribe SH hangqing Success!");
+            System.out.println("Subscribe SH zhishuhangqing Success!");
         }
 
         //订阅深交所实时行情
@@ -141,14 +144,15 @@ public class run {
         }
 
         //订阅深交所指数行情 param: 消息结构体、Codes.SZ_string
-        ret = baseService.BaseSubscribe(MsgType.SZSEL2_Index.code, Codes.SZ_string);
+        ret = baseService.BaseSubscribe(MsgType.SZSEL2_Index.code, Codes.zhishu_SZ_string);
         if (RetCode.Ret_Success != RetCode.fetchByCode(ret)) {
-            System.out.println("Subscribe SZ Index Market error!");
+            System.out.println("Subscribe SZ zhishu hangqing error!");
             System.exit(-1);
         }
         else {
-            System.out.println("Subscribe SZ Order Success!");
+            System.out.println("Subscribe SZ zhishu hangqing Success!");
         }
+
 
         /**建立3个线程分别处理数据**/
         Distributing dis0 = new Distributing();
@@ -175,6 +179,7 @@ public class run {
             Kafka.single_producer.close();
             Kafka.hangqingOnly_producer.close();
             Kafka.orderOnly_producer.close();
+            Kafka.zhishuhangqingOnly_producer.close();
         } catch (InterruptedException e) {
             e.printStackTrace();
             System.exit(-5);

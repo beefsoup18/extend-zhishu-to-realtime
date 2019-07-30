@@ -38,9 +38,9 @@ public class HqPrducerCallback implements Callback{
 
         }
 
-        else {
-            System.out.println("send complete.KKKKKKKKKKKKKKKKKKKKKKKKKKKKQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ");
-        }
+//        else {
+//            System.out.println("send complete.KKKKKKKKKKKKKKKKKKKKKKKKKKKKQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ");
+//        }
 
     }
 

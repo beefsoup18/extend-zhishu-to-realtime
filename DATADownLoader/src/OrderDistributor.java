@@ -26,7 +26,7 @@ public class OrderDistributor implements Runnable{
             if(data==null){
                 try {
                     Thread.sleep(1);
-                    System.out.println("Order Buffer Queue Empty!^^^");
+//                    System.out.println("Order Buffer Queue Empty!^^^");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

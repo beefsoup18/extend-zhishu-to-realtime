@@ -45,9 +45,9 @@ public class OrderPrducerCallback implements Callback{
 
         }
 
-        else {
-            System.out.println("send complete.---HAHAHAHAHAHAHAHAHAHAHAHA");
-        }
+//        else {
+//            System.out.println("send complete.---HAHAHAHAHAHAHAHAHAHAHAHA");
+//        }
 
     }
 

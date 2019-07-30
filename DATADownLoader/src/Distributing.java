@@ -23,7 +23,7 @@ public class Distributing implements Runnable{
             if(data==null){
                 try {
                     Thread.sleep(1);
-                    System.out.println("Buffer Queue Empty!");
+//                    System.out.println("Buffer Queue Empty!");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
