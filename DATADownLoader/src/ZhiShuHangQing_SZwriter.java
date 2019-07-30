@@ -52,7 +52,7 @@ public class ZhiShuHangQing_SZwriter implements Runnable{
         data_.setHighPrice(HighPrice);
         data_.setLowPrice(LowPrice);
         data_.setLastPrice(LastPrice);
-        data_.setTotalVolume(TotalVolume);
+        data_.setTotalVolumeSZ(TotalVolume);
 
         data_.setSymbolSourceSZ(SymbolSource);
         data_.setSecurityPhaseTagSZ(SecurityPhaseTag);

@@ -44,7 +44,9 @@ public class GTACallbackBase implements IGTAQTSCallbackBase{
 
     @Override
     public void OnSubscribe_SSEL2_Index(SSEL2_Index data) {
-
+        System.out.println(data);
+        ZhiShuHangQingHolder zhishuhangqing_data = new ZhiShuHangQingHolder(data);
+        GLBuffer.zhishuhangqingBuffer.offer(zhishuhangqing_data);
     }
 
     @Override
@@ -76,7 +78,9 @@ public class GTACallbackBase implements IGTAQTSCallbackBase{
 
     @Override
     public void OnSubscribe_SZSEL2_Index(SZSEL2_Index data) {
-
+//        System.out.println(data);
+        ZhiShuHangQingHolder zhishuhangqing_data = new ZhiShuHangQingHolder(data);
+        GLBuffer.zhishuhangqingBuffer.offer(zhishuhangqing_data);
     }
 
     @Override
@@ -91,7 +95,7 @@ public class GTACallbackBase implements IGTAQTSCallbackBase{
     public void OnSubscribe_SZSEL2_Quotation(SZSEL2_Quotation data) {
         //System.out.println("OnSubscribe_SZSEL2_Quotation");
 //        SZSEL2_Quotation_FileOut.printData(data);
-        System.out.println("SZSE HangQing callback is called ***");
+//        System.out.println("SZSE HangQing callback is called ***");
         HangQingHolder hangqing_data = new HangQingHolder(data);
         GLBuffer.hangqingBuffer.offer(hangqing_data);
 

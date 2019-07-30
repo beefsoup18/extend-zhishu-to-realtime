@@ -196,7 +196,7 @@ public class HangQing_SHwriter implements Runnable{
 //            Kafka.producers.get(this.thread_id).send(record).get();
             Kafka.hangqingOnly_producer.send(record, new HqPrducerCallback());
 //                Kafka.single_producer.send(record, new ProducerCallback(transac, this.code_tablename));
-            System.out.println("sending");
+//            System.out.println("sending");
 //            Kafka.hangqingOnly_producer.send(record).get();
         }catch (Exception e){
             e.printStackTrace();

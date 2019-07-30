@@ -37,7 +37,7 @@ public class ZhiShuHangQing_SHwriter implements Runnable{
         double LowPrice = data.LowPrice;
         double LastPrice = data.LastPrice;
         double ClosePrice = data.ClosePrice;
-        double TotalVolume = data.TotalVolume;
+        long TotalVolume = data.TotalVolume;
         double TotalAmout = data.TotalAmount;
 
         ZhiShu data_ = new ZhiShu();
@@ -54,7 +54,7 @@ public class ZhiShuHangQing_SHwriter implements Runnable{
         data_.setLowPrice(LowPrice);
         data_.setLastPrice(LastPrice);
         data_.setClosePriceSH(ClosePrice);
-        data_.setTotalVolume(TotalVolume);
+        data_.setTotalVolumeSH(TotalVolume);
         data_.setTotalAmountSH(TotalAmout);
 
 

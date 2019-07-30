@@ -16,7 +16,7 @@ public class ZhiShuHangQingDistributor implements Runnable{
             if(data==null){
                 try {
                     Thread.sleep(1);
-                    System.out.println("ZhiShuHangQing Buffer Queue Empty!");
+//                    System.out.println("ZhiShuHangQing Buffer Queue Empty!");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -36,6 +36,7 @@ public class ZhiShuHangQingDistributor implements Runnable{
                 byte[] bytessymbol = data.SH_data.Symbol;
                 String code = byteArr2String(bytessymbol) + ".SH";
                 String tableName = "SH"+byteArr2String(bytessymbol);
+                System.out.println(code);
                 thread_id = Codes.code_threadID.get(code);
                 ZhiShuHangQing_SHwriter shtask = new ZhiShuHangQing_SHwriter(data.SH_data, code, tableName, thread_id);
                 Codes.threads_array.get(thread_id).execute(shtask);

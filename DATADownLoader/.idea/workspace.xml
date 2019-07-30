@@ -6,18 +6,24 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba1ed6f7-b132-48b1-b7b6-4a8d9d7097ea" name="Default" comment="增加了指数代码列表并开始调试">
+    <list default="true" id="ba1ed6f7-b132-48b1-b7b6-4a8d9d7097ea" name="Default" comment="调试，排查为什么没有创建指数行情Topic的原因">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/Codes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/Codes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Distributing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Distributing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HqPrducerCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HqPrducerCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kafka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kafka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrderDistributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrderDistributor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrderPrducerCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrderPrducerCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProducerCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProducerCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/Distributing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/Distributing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/HqPrducerCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/HqPrducerCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/Kafka.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/Kafka.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/OrderDistributor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/OrderDistributor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/OrderPrducerCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/OrderPrducerCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/ProducerCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/ProducerCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQingDistributor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQingDistributor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQingProducerCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQingProducerCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/run.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GTACallbackBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GTACallbackBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HangQing_SHwriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HangQing_SHwriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HangQing_SZwriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HangQing_SZwriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ZhiShuHangQingDistributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZhiShuHangQingDistributor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ZhiShuHangQingProducerCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZhiShuHangQingProducerCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZhiShuHangQing_SHwriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZhiShuHangQing_SHwriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZhiShuHangQing_SZwriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZhiShuHangQing_SZwriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wangzitian/realtime/ZhiShu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wangzitian/realtime/ZhiShu.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,26 +37,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GLBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+            <state relative-caret-position="133">
+              <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
               <folding>
-                <element signature="e#260#273#0" expanded="true" />
-                <element signature="e#372#386#0" expanded="true" />
-                <element signature="e#487#503#0" expanded="true" />
-                <element signature="e#619#641#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQingHolder.java">
+        <entry file="file://$PROJECT_DIR$/src/GTACallbackBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="71">
+              <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#OnSubscribe_SSEL2_Quotation#0;class#GTACallbackBase#0" />
+                <element signature="method#OnSubscribe_SSEL2_Static#0;class#GTACallbackBase#0" />
+                <element signature="method#OnSubscribe_SSEL2_Transaction#0;class#GTACallbackBase#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/run.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="139" column="28" lean-forward="true" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,17 +79,55 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQingDistributor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="1">
+              <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Codes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#setSHlist#0;class#Codes#0" />
+                <element signature="method#setzhishuSZlist#0;class#Codes#0" />
+                <element signature="method#setzhishuSHlist#0;class#Codes#0" />
+                <element signature="method#buildGLThreadsPool#0;class#Codes#0" />
+                <element signature="method#closeGLThreadPool#0;class#Codes#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Queue.java">
+        <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQing_SHwriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQing_SZwriter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+              <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Runnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -87,8 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Order</find>
-      <find>TotalSellOrderVolume</find>
       <find>setTotalSellOrder</find>
       <find>setSellLevelQueue</find>
       <find>transaction</find>
@@ -116,6 +170,9 @@
       <find>poll</find>
       <find>Empty</find>
       <find>zhishuhangqingBuffer</find>
+      <find>byteArr2String(</find>
+      <find>sending</find>
+      <find>TotalVolume</find>
     </findStrings>
     <replaceStrings>
       <replace>PacketTimeStamp_SH</replace>
@@ -153,10 +210,7 @@
         <option value="$PROJECT_DIR$/src/SZwrite.java" />
         <option value="$PROJECT_DIR$/src/wangzitian/realtime/HangQing.java" />
         <option value="$PROJECT_DIR$/src/HangQingDistributor.java" />
-        <option value="$PROJECT_DIR$/src/GTACallbackBase.java" />
         <option value="$PROJECT_DIR$/src/ZhiShuHangQingHolder.java" />
-        <option value="$PROJECT_DIR$/src/HangQing_SHwriter.java" />
-        <option value="$PROJECT_DIR$/src/HangQing_SZwriter.java" />
         <option value="$PROJECT_DIR$/src/SZorderWrite.java" />
         <option value="$PROJECT_DIR$/src/SHwrite.java" />
         <option value="$PROJECT_DIR$/src/GLBuffer.java" />
@@ -165,11 +219,7 @@
         <option value="$PROJECT_DIR$/src/kafkaProc/ZhishuHangQing.java" />
         <option value="$PROJECT_DIR$/src/kafkaProc/ZhiShuHangQingSerializer.java" />
         <option value="$PROJECT_DIR$/src/kafkaProc/ZhiShuHangQingDeserializer" />
-        <option value="$PROJECT_DIR$/src/wangzitian/realtime/ZhiShu.java" />
-        <option value="$PROJECT_DIR$/src/ZhiShuHangQing_SHwriter.java" />
-        <option value="$PROJECT_DIR$/src/ZhiShuHangQing_SZwriter.java" />
         <option value="$PROJECT_DIR$/src/Codes.java" />
-        <option value="$PROJECT_DIR$/src/run.java" />
         <option value="$PROJECT_DIR$/src/Kafka.java" />
         <option value="$PROJECT_DIR$/src/OrderPrducerCallback.java" />
         <option value="$PROJECT_DIR$/src/HqPrducerCallback.java" />
@@ -177,7 +227,14 @@
         <option value="$PROJECT_DIR$/src/ZhiShuHangQingProducerCallback.java" />
         <option value="$PROJECT_DIR$/src/Distributing.java" />
         <option value="$PROJECT_DIR$/src/OrderDistributor.java" />
+        <option value="$PROJECT_DIR$/src/HangQing_SHwriter.java" />
+        <option value="$PROJECT_DIR$/src/HangQing_SZwriter.java" />
+        <option value="$PROJECT_DIR$/src/run.java" />
+        <option value="$PROJECT_DIR$/src/wangzitian/realtime/ZhiShu.java" />
+        <option value="$PROJECT_DIR$/src/ZhiShuHangQing_SHwriter.java" />
+        <option value="$PROJECT_DIR$/src/ZhiShuHangQing_SZwriter.java" />
         <option value="$PROJECT_DIR$/src/ZhiShuHangQingDistributor.java" />
+        <option value="$PROJECT_DIR$/src/GTACallbackBase.java" />
       </list>
     </option>
   </component>
@@ -215,6 +272,12 @@
               <item name="DATADownLoader" type="b2602c69:ProjectViewProjectNode" />
               <item name="DATADownLoader" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DATADownLoader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DATADownLoader" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kafkaProc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -411,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564128470506</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="调试，排查为什么没有创建指数行情Topic的原因">
+      <created>1564459859358</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1564459859358</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -421,7 +491,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.34253246" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34253246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -430,13 +500,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.24333926" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43339255" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.24333926" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38010657" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.05319149" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.053285968" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
@@ -498,7 +568,8 @@
     <MESSAGE value="能够与本地kafka连接" />
     <MESSAGE value="成功登录测试账号" />
     <MESSAGE value="增加了指数代码列表并开始调试" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了指数代码列表并开始调试" />
+    <MESSAGE value="调试，排查为什么没有创建指数行情Topic的原因" />
+    <option name="LAST_COMMIT_MESSAGE" value="调试，排查为什么没有创建指数行情Topic的原因" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -516,14 +587,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/kafkaProc/TransacDeserilizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="41" column="1" lean-forward="true" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wangzitian/realtime/BuySellLevelInfo3.java" />
     <entry file="file://$PROJECT_DIR$/src/wangzitian/realtime/BuySellLevelIn3avro.java" />
     <entry file="file://$PROJECT_DIR$/SZ_codes.txt" />
     <entry file="file://$PROJECT_DIR$/SH_codes.txt" />
@@ -542,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SZwrite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="58" column="37" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/kafkaProc/TransacSerilizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -556,13 +612,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SZorderWrite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
@@ -591,16 +640,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kafkaProc/ZhishuHangQing.java" />
     <entry file="file://$PROJECT_DIR$/src/kafkaProc/ZhiShuHangQingDserializer" />
-    <entry file="file://$PROJECT_DIR$/src/kafkaProc/ZhiShuHangQingSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/kafkaProc/ZhiShuHangQingDeserializer">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -616,198 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SHwrite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wangzitian/realtime/ZhiShu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="64" column="3" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#2004#2012#0" expanded="true" />
-            <element signature="e#2132#2140#0" expanded="true" />
-            <element signature="e#2304#2305#0" expanded="true" />
-            <element signature="e#2334#2335#0" expanded="true" />
-            <element signature="e#7787#7823#0" expanded="true" />
-            <element signature="e#9424#9425#0" expanded="true" />
-            <element signature="e#9461#9462#0" expanded="true" />
-            <element signature="e#9630#9631#0" expanded="true" />
-            <element signature="e#9673#9674#0" expanded="true" />
-            <element signature="e#9852#9853#0" expanded="true" />
-            <element signature="e#9888#9889#0" expanded="true" />
-            <element signature="e#10060#10061#0" expanded="true" />
-            <element signature="e#10102#10103#0" expanded="true" />
-            <element signature="e#10246#10247#0" expanded="true" />
-            <element signature="e#10273#10274#0" expanded="true" />
-            <element signature="e#10419#10420#0" expanded="true" />
-            <element signature="e#10452#10453#0" expanded="true" />
-            <element signature="e#10610#10611#0" expanded="true" />
-            <element signature="e#10639#10640#0" expanded="true" />
-            <element signature="e#10797#10798#0" expanded="true" />
-            <element signature="e#10832#10833#0" expanded="true" />
-            <element signature="e#11005#11006#0" expanded="true" />
-            <element signature="e#11041#11042#0" expanded="true" />
-            <element signature="e#11207#11208#0" expanded="true" />
-            <element signature="e#11249#11250#0" expanded="true" />
-            <element signature="e#11410#11411#0" expanded="true" />
-            <element signature="e#11442#11443#0" expanded="true" />
-            <element signature="e#11600#11601#0" expanded="true" />
-            <element signature="e#11638#11639#0" expanded="true" />
-            <element signature="e#11799#11800#0" expanded="true" />
-            <element signature="e#11831#11832#0" expanded="true" />
-            <element signature="e#11989#11990#0" expanded="true" />
-            <element signature="e#12027#12028#0" expanded="true" />
-            <element signature="e#12185#12186#0" expanded="true" />
-            <element signature="e#12216#12217#0" expanded="true" />
-            <element signature="e#12372#12373#0" expanded="true" />
-            <element signature="e#12409#12410#0" expanded="true" />
-            <element signature="e#12570#12571#0" expanded="true" />
-            <element signature="e#12602#12603#0" expanded="true" />
-            <element signature="e#12760#12761#0" expanded="true" />
-            <element signature="e#12798#12799#0" expanded="true" />
-            <element signature="e#12965#12966#0" expanded="true" />
-            <element signature="e#12999#13000#0" expanded="true" />
-            <element signature="e#13161#13162#0" expanded="true" />
-            <element signature="e#13201#13202#0" expanded="true" />
-            <element signature="e#13386#13387#0" expanded="true" />
-            <element signature="e#13427#13428#0" expanded="true" />
-            <element signature="e#13600#13601#0" expanded="true" />
-            <element signature="e#13647#13648#0" expanded="true" />
-            <element signature="e#13817#13818#0" expanded="true" />
-            <element signature="e#13852#13853#0" expanded="true" />
-            <element signature="e#14016#14017#0" expanded="true" />
-            <element signature="e#14057#14058#0" expanded="true" />
-            <element signature="e#14232#14233#0" expanded="true" />
-            <element signature="e#14269#14270#0" expanded="true" />
-            <element signature="e#14436#14437#0" expanded="true" />
-            <element signature="e#14479#14480#0" expanded="true" />
-            <element signature="e#14651#14652#0" expanded="true" />
-            <element signature="e#14687#14688#0" expanded="true" />
-            <element signature="e#14852#14853#0" expanded="true" />
-            <element signature="e#14894#14895#0" expanded="true" />
-            <element signature="e#15078#15079#0" expanded="true" />
-            <element signature="e#15116#15117#0" expanded="true" />
-            <element signature="e#15291#15292#0" expanded="true" />
-            <element signature="e#15335#15336#0" expanded="true" />
-            <element signature="e#15531#15532#0" expanded="true" />
-            <element signature="e#15573#15574#0" expanded="true" />
-            <element signature="e#15756#15757#0" expanded="true" />
-            <element signature="e#15804#15805#0" expanded="true" />
-            <element signature="e#15965#15966#0" expanded="true" />
-            <element signature="e#15998#15999#0" expanded="true" />
-            <element signature="e#16155#16156#0" expanded="true" />
-            <element signature="e#16194#16195#0" expanded="true" />
-            <element signature="e#16358#16359#0" expanded="true" />
-            <element signature="e#16392#16393#0" expanded="true" />
-            <element signature="e#16551#16552#0" expanded="true" />
-            <element signature="e#16591#16592#0" expanded="true" />
-            <element signature="e#16761#16762#0" expanded="true" />
-            <element signature="e#16824#16825#0" expanded="true" />
-            <element signature="e#18679#18680#0" expanded="true" />
-            <element signature="e#18717#18718#0" expanded="true" />
-            <element signature="e#27186#27187#0" expanded="true" />
-            <element signature="e#27231#27232#0" expanded="true" />
-            <element signature="e#27861#27862#0" expanded="true" />
-            <element signature="e#27910#27911#0" expanded="true" />
-            <element signature="e#28347#28348#0" expanded="true" />
-            <element signature="e#28391#28392#0" expanded="true" />
-            <element signature="e#29033#29034#0" expanded="true" />
-            <element signature="e#29082#29083#0" expanded="true" />
-            <element signature="e#29525#29526#0" expanded="true" />
-            <element signature="e#29560#29561#0" expanded="true" />
-            <element signature="e#30131#30132#0" expanded="true" />
-            <element signature="e#30180#30181#0" expanded="true" />
-            <element signature="e#30608#30609#0" expanded="true" />
-            <element signature="e#30645#30646#0" expanded="true" />
-            <element signature="e#31238#31239#0" expanded="true" />
-            <element signature="e#31287#31288#0" expanded="true" />
-            <element signature="e#31729#31730#0" expanded="true" />
-            <element signature="e#31773#31774#0" expanded="true" />
-            <element signature="e#32409#32410#0" expanded="true" />
-            <element signature="e#32458#32459#0" expanded="true" />
-            <element signature="e#32913#32914#0" expanded="true" />
-            <element signature="e#32953#32954#0" expanded="true" />
-            <element signature="e#33561#33562#0" expanded="true" />
-            <element signature="e#33610#33611#0" expanded="true" />
-            <element signature="e#34053#34054#0" expanded="true" />
-            <element signature="e#34093#34094#0" expanded="true" />
-            <element signature="e#34701#34702#0" expanded="true" />
-            <element signature="e#34750#34751#0" expanded="true" />
-            <element signature="e#35191#35192#0" expanded="true" />
-            <element signature="e#35230#35231#0" expanded="true" />
-            <element signature="e#35831#35832#0" expanded="true" />
-            <element signature="e#35880#35881#0" expanded="true" />
-            <element signature="e#36320#36321#0" expanded="true" />
-            <element signature="e#36360#36361#0" expanded="true" />
-            <element signature="e#36968#36969#0" expanded="true" />
-            <element signature="e#37017#37018#0" expanded="true" />
-            <element signature="e#37464#37465#0" expanded="true" />
-            <element signature="e#37506#37507#0" expanded="true" />
-            <element signature="e#38128#38129#0" expanded="true" />
-            <element signature="e#38177#38178#0" expanded="true" />
-            <element signature="e#38641#38642#0" expanded="true" />
-            <element signature="e#38690#38691#0" expanded="true" />
-            <element signature="e#39359#39360#0" expanded="true" />
-            <element signature="e#39409#39410#0" expanded="true" />
-            <element signature="e#39897#39898#0" expanded="true" />
-            <element signature="e#39940#39941#0" expanded="true" />
-            <element signature="e#40570#40571#0" expanded="true" />
-            <element signature="e#40620#40621#0" expanded="true" />
-            <element signature="e#41081#41082#0" expanded="true" />
-            <element signature="e#41126#41127#0" expanded="true" />
-            <element signature="e#41769#41770#0" expanded="true" />
-            <element signature="e#41819#41820#0" expanded="true" />
-            <element signature="e#42284#42285#0" expanded="true" />
-            <element signature="e#42328#42329#0" expanded="true" />
-            <element signature="e#42964#42965#0" expanded="true" />
-            <element signature="e#43014#43015#0" expanded="true" />
-            <element signature="e#43486#43487#0" expanded="true" />
-            <element signature="e#43532#43533#0" expanded="true" />
-            <element signature="e#44188#44189#0" expanded="true" />
-            <element signature="e#44238#44239#0" expanded="true" />
-            <element signature="e#44724#44725#0" expanded="true" />
-            <element signature="e#44774#44775#0" expanded="true" />
-            <element signature="e#45458#45459#0" expanded="true" />
-            <element signature="e#45508#45509#0" expanded="true" />
-            <element signature="e#45980#45981#0" expanded="true" />
-            <element signature="e#46021#46022#0" expanded="true" />
-            <element signature="e#46634#46635#0" expanded="true" />
-            <element signature="e#46684#46685#0" expanded="true" />
-            <element signature="e#47131#47132#0" expanded="true" />
-            <element signature="e#47173#47174#0" expanded="true" />
-            <element signature="e#47793#47794#0" expanded="true" />
-            <element signature="e#47843#47844#0" expanded="true" />
-            <element signature="e#48165#48195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQing_SZwriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="66" column="75" selection-start-line="66" selection-start-column="75" selection-end-line="66" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQing_SHwriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="64" column="97" selection-start-line="64" selection-start-column="97" selection-end-line="64" selection-end-column="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -835,96 +682,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HangQing_SHwriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HangQing_SZwriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="34" column="45" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HangQingHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
           <caret line="3" column="27" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="103" column="30" lean-forward="true" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="145" column="11" selection-start-line="145" selection-start-column="11" selection-end-line="145" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kafka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="249" column="40" lean-forward="true" selection-start-line="249" selection-start-column="40" selection-end-line="249" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1385#1417#0" expanded="true" />
-            <element signature="method#buildOrderOnlyProducers#0;class#Kafka#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GTACallbackBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2107">
-          <caret line="116" column="46" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HangQingDistributor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Distributing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="25" column="60" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -986,20 +747,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQingProducerCallback.java">
+    <entry file="file://$PROJECT_DIR$/src/SZwrite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        <state relative-caret-position="70">
+          <caret line="58" column="61" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SZorderWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SHwrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Runnable.java">
+    <entry file="file://$PROJECT_DIR$/src/HangQing_SZwriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        <state relative-caret-position="89">
+          <caret line="231" column="27" lean-forward="true" selection-start-line="231" selection-start-column="27" selection-end-line="231" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HangQing_SHwriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="199" column="26" lean-forward="true" selection-start-line="199" selection-start-column="26" selection-end-line="199" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1007,6 +792,219 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HangQingDistributor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/qtsapi-2.0.0.jar!/com/gta/qts/c2j/adaptee/structure/SSEL2_Index.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wangzitian/realtime/ZhiShu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3116">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2049#2057#0" expanded="true" />
+            <element signature="e#2169#2177#0" expanded="true" />
+            <element signature="e#2333#2334#0" expanded="true" />
+            <element signature="e#2357#2358#0" expanded="true" />
+            <element signature="e#7672#7708#0" expanded="true" />
+            <element signature="e#9199#9200#0" expanded="true" />
+            <element signature="e#9230#9231#0" expanded="true" />
+            <element signature="e#9389#9390#0" expanded="true" />
+            <element signature="e#9426#9427#0" expanded="true" />
+            <element signature="e#9595#9596#0" expanded="true" />
+            <element signature="e#9625#9626#0" expanded="true" />
+            <element signature="e#9787#9788#0" expanded="true" />
+            <element signature="e#9823#9824#0" expanded="true" />
+            <element signature="e#9957#9958#0" expanded="true" />
+            <element signature="e#9978#9979#0" expanded="true" />
+            <element signature="e#10114#10115#0" expanded="true" />
+            <element signature="e#10141#10142#0" expanded="true" />
+            <element signature="e#10289#10290#0" expanded="true" />
+            <element signature="e#10312#10313#0" expanded="true" />
+            <element signature="e#10460#10461#0" expanded="true" />
+            <element signature="e#10489#10490#0" expanded="true" />
+            <element signature="e#10652#10653#0" expanded="true" />
+            <element signature="e#10682#10683#0" expanded="true" />
+            <element signature="e#10838#10839#0" expanded="true" />
+            <element signature="e#10874#10875#0" expanded="true" />
+            <element signature="e#11025#11026#0" expanded="true" />
+            <element signature="e#11051#11052#0" expanded="true" />
+            <element signature="e#11199#11200#0" expanded="true" />
+            <element signature="e#11231#11232#0" expanded="true" />
+            <element signature="e#11382#11383#0" expanded="true" />
+            <element signature="e#11408#11409#0" expanded="true" />
+            <element signature="e#11556#11557#0" expanded="true" />
+            <element signature="e#11588#11589#0" expanded="true" />
+            <element signature="e#11736#11737#0" expanded="true" />
+            <element signature="e#11761#11762#0" expanded="true" />
+            <element signature="e#11907#11908#0" expanded="true" />
+            <element signature="e#11938#11939#0" expanded="true" />
+            <element signature="e#12089#12090#0" expanded="true" />
+            <element signature="e#12115#12116#0" expanded="true" />
+            <element signature="e#12263#12264#0" expanded="true" />
+            <element signature="e#12295#12296#0" expanded="true" />
+            <element signature="e#12460#12461#0" expanded="true" />
+            <element signature="e#12491#12492#0" expanded="true" />
+            <element signature="e#12648#12649#0" expanded="true" />
+            <element signature="e#12685#12686#0" expanded="true" />
+            <element signature="e#12860#12861#0" expanded="true" />
+            <element signature="e#12895#12896#0" expanded="true" />
+            <element signature="e#13058#13059#0" expanded="true" />
+            <element signature="e#13099#13100#0" expanded="true" />
+            <element signature="e#13259#13260#0" expanded="true" />
+            <element signature="e#13288#13289#0" expanded="true" />
+            <element signature="e#13442#13443#0" expanded="true" />
+            <element signature="e#13477#13478#0" expanded="true" />
+            <element signature="e#13642#13643#0" expanded="true" />
+            <element signature="e#13673#13674#0" expanded="true" />
+            <element signature="e#13830#13831#0" expanded="true" />
+            <element signature="e#13867#13868#0" expanded="true" />
+            <element signature="e#14029#14030#0" expanded="true" />
+            <element signature="e#14059#14060#0" expanded="true" />
+            <element signature="e#14214#14215#0" expanded="true" />
+            <element signature="e#14250#14251#0" expanded="true" />
+            <element signature="e#14413#14414#0" expanded="true" />
+            <element signature="e#14444#14445#0" expanded="true" />
+            <element signature="e#14599#14600#0" expanded="true" />
+            <element signature="e#14636#14637#0" expanded="true" />
+            <element signature="e#14810#14811#0" expanded="true" />
+            <element signature="e#14842#14843#0" expanded="true" />
+            <element signature="e#15007#15008#0" expanded="true" />
+            <element signature="e#15045#15046#0" expanded="true" />
+            <element signature="e#15231#15232#0" expanded="true" />
+            <element signature="e#15267#15268#0" expanded="true" />
+            <element signature="e#15440#15441#0" expanded="true" />
+            <element signature="e#15482#15483#0" expanded="true" />
+            <element signature="e#15633#15634#0" expanded="true" />
+            <element signature="e#15660#15661#0" expanded="true" />
+            <element signature="e#15807#15808#0" expanded="true" />
+            <element signature="e#15840#15841#0" expanded="true" />
+            <element signature="e#15994#15995#0" expanded="true" />
+            <element signature="e#16022#16023#0" expanded="true" />
+            <element signature="e#16171#16172#0" expanded="true" />
+            <element signature="e#16205#16206#0" expanded="true" />
+            <element signature="e#16365#16366#0" expanded="true" />
+            <element signature="e#16422#16423#0" expanded="true" />
+            <element signature="e#18191#18192#0" expanded="true" />
+            <element signature="e#18219#18220#0" expanded="true" />
+            <element signature="e#26023#26024#0" expanded="true" />
+            <element signature="e#26058#26059#0" expanded="true" />
+            <element signature="e#26623#26624#0" expanded="true" />
+            <element signature="e#26662#26663#0" expanded="true" />
+            <element signature="e#27049#27050#0" expanded="true" />
+            <element signature="e#27083#27084#0" expanded="true" />
+            <element signature="e#27660#27661#0" expanded="true" />
+            <element signature="e#27699#27700#0" expanded="true" />
+            <element signature="e#28086#28087#0" expanded="true" />
+            <element signature="e#28111#28112#0" expanded="true" />
+            <element signature="e#28617#28618#0" expanded="true" />
+            <element signature="e#28656#28657#0" expanded="true" />
+            <element signature="e#29028#29029#0" expanded="true" />
+            <element signature="e#29055#29056#0" expanded="true" />
+            <element signature="e#29583#29584#0" expanded="true" />
+            <element signature="e#29622#29623#0" expanded="true" />
+            <element signature="e#30008#30009#0" expanded="true" />
+            <element signature="e#30042#30043#0" expanded="true" />
+            <element signature="e#30613#30614#0" expanded="true" />
+            <element signature="e#30652#30653#0" expanded="true" />
+            <element signature="e#31051#31052#0" expanded="true" />
+            <element signature="e#31081#31082#0" expanded="true" />
+            <element signature="e#31624#31625#0" expanded="true" />
+            <element signature="e#31663#31664#0" expanded="true" />
+            <element signature="e#32050#32051#0" expanded="true" />
+            <element signature="e#32080#32081#0" expanded="true" />
+            <element signature="e#32623#32624#0" expanded="true" />
+            <element signature="e#32662#32663#0" expanded="true" />
+            <element signature="e#33047#33048#0" expanded="true" />
+            <element signature="e#33076#33077#0" expanded="true" />
+            <element signature="e#33612#33613#0" expanded="true" />
+            <element signature="e#33651#33652#0" expanded="true" />
+            <element signature="e#34035#34036#0" expanded="true" />
+            <element signature="e#34065#34066#0" expanded="true" />
+            <element signature="e#34608#34609#0" expanded="true" />
+            <element signature="e#34647#34648#0" expanded="true" />
+            <element signature="e#35043#35044#0" expanded="true" />
+            <element signature="e#35078#35079#0" expanded="true" />
+            <element signature="e#35654#35655#0" expanded="true" />
+            <element signature="e#35693#35694#0" expanded="true" />
+            <element signature="e#36109#36110#0" expanded="true" />
+            <element signature="e#36148#36149#0" expanded="true" />
+            <element signature="e#36752#36753#0" expanded="true" />
+            <element signature="e#36792#36793#0" expanded="true" />
+            <element signature="e#37212#37213#0" expanded="true" />
+            <element signature="e#37245#37246#0" expanded="true" />
+            <element signature="e#37810#37811#0" expanded="true" />
+            <element signature="e#37850#37851#0" expanded="true" />
+            <element signature="e#38255#38256#0" expanded="true" />
+            <element signature="e#38290#38291#0" expanded="true" />
+            <element signature="e#38868#38869#0" expanded="true" />
+            <element signature="e#38908#38909#0" expanded="true" />
+            <element signature="e#39317#39318#0" expanded="true" />
+            <element signature="e#39351#39352#0" expanded="true" />
+            <element signature="e#39922#39923#0" expanded="true" />
+            <element signature="e#39962#39963#0" expanded="true" />
+            <element signature="e#40368#40369#0" expanded="true" />
+            <element signature="e#40403#40404#0" expanded="true" />
+            <element signature="e#40979#40980#0" expanded="true" />
+            <element signature="e#41019#41020#0" expanded="true" />
+            <element signature="e#41438#41439#0" expanded="true" />
+            <element signature="e#41474#41475#0" expanded="true" />
+            <element signature="e#42065#42066#0" expanded="true" />
+            <element signature="e#42105#42106#0" expanded="true" />
+            <element signature="e#42535#42536#0" expanded="true" />
+            <element signature="e#42575#42576#0" expanded="true" />
+            <element signature="e#43194#43195#0" expanded="true" />
+            <element signature="e#43234#43235#0" expanded="true" />
+            <element signature="e#43650#43651#0" expanded="true" />
+            <element signature="e#43681#43682#0" expanded="true" />
+            <element signature="e#44229#44230#0" expanded="true" />
+            <element signature="e#44269#44270#0" expanded="true" />
+            <element signature="e#44660#44661#0" expanded="true" />
+            <element signature="e#44692#44693#0" expanded="true" />
+            <element signature="e#45247#45248#0" expanded="true" />
+            <element signature="e#45287#45288#0" expanded="true" />
+            <element signature="e#45562#45592#0" expanded="true" />
+            <element signature="e#48065#48095#0" expanded="true" />
+            <element signature="e#48407#48437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kafkaProc/ZhiShuHangQingSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQing_SZwriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1020,22 +1018,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQingDistributor.java">
+    <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQingProducerCallback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="642">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kafka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4048">
+          <caret line="249" column="40" lean-forward="true" selection-start-line="249" selection-start-column="40" selection-end-line="249" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1385#1417#0" expanded="true" />
+            <element signature="e#9566#10781#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQing_SHwriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="139" column="28" lean-forward="true" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Distributing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="739" column="6" lean-forward="true" selection-start-line="739" selection-start-column="6" selection-end-line="739" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GTACallbackBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#OnSubscribe_SSEL2_Quotation#0;class#GTACallbackBase#0" />
+            <element signature="method#OnSubscribe_SSEL2_Static#0;class#GTACallbackBase#0" />
+            <element signature="method#OnSubscribe_SSEL2_Transaction#0;class#GTACallbackBase#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GLBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+        <state relative-caret-position="133">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
           <folding>
-            <element signature="e#260#273#0" expanded="true" />
-            <element signature="e#372#386#0" expanded="true" />
-            <element signature="e#487#503#0" expanded="true" />
-            <element signature="e#619#641#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQingDistributor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setSHlist#0;class#Codes#0" />
+            <element signature="method#setzhishuSZlist#0;class#Codes#0" />
+            <element signature="method#setzhishuSHlist#0;class#Codes#0" />
+            <element signature="method#buildGLThreadsPool#0;class#Codes#0" />
+            <element signature="method#closeGLThreadPool#0;class#Codes#0" />
           </folding>
         </state>
       </provider>
