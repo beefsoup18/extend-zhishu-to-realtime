@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba1ed6f7-b132-48b1-b7b6-4a8d9d7097ea" name="Default" comment="调试，排查为什么报thread的错误">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/GTACallbackBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/GTACallbackBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/HangQing_SHwriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/HangQing_SHwriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/HangQing_SZwriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/HangQing_SZwriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQing_SHwriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQing_SHwriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQing_SZwriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQing_SZwriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/wangzitian/realtime/ZhiShu$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/wangzitian/realtime/ZhiShu$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/wangzitian/realtime/ZhiShu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/wangzitian/realtime/ZhiShu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhishu_SZ_codes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/zhishu_SZ_codes.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQingDistributor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="41" column="67" lean-forward="true" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+            <state relative-caret-position="191">
+              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -254,10 +247,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3" />
-    <option name="y" value="147" />
-    <option name="width" value="1740" />
-    <option name="height" value="969" />
+    <option name="x" value="765" />
+    <option name="y" value="27" />
+    <option name="width" value="918" />
+    <option name="height" value="951" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -295,7 +288,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Client2_plainflow" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -494,14 +487,31 @@
       <option name="project" value="LOCAL" />
       <updated>1564477124133</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="调试，排查为什么报thread的错误">
+      <created>1564495258725</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564495258725</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="242689000" />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34253246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -517,9 +527,9 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.053285968" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -1141,8 +1151,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQingDistributor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="41" column="67" lean-forward="true" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+        <state relative-caret-position="191">
+          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
         </state>
       </provider>
     </entry>
