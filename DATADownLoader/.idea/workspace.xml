@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba1ed6f7-b132-48b1-b7b6-4a8d9d7097ea" name="Default" comment="DataDownloader调试成功">
+    <list default="true" id="ba1ed6f7-b132-48b1-b7b6-4a8d9d7097ea" name="Default" comment="DataDownloader调试成功,取到了完整的指数数据">
       <change afterPath="$PROJECT_DIR$/../Client2_plainflow/src/kafkaProc/ZhiShuDeserilizer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Client2_plainflow/src/wangzitian/realtime/ZhiShu.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Consumer/.idea/libraries/avro_1_8_2.xml" afterDir="false" />
@@ -16,9 +16,6 @@
       <change afterPath="$PROJECT_DIR$/../Consumer/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Consumer/Consumer.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Consumer/src/run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DATADownLoader/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DATADownLoader/wangzitian/realtime/ZhiShu.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wangzitian/realtime/ZhiShu.rar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2_plainflow/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaClient/KafkaSend.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaClient/KafkaSend.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaClient/run.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaClient/run.class" afterDir="false" />
@@ -27,15 +24,9 @@
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/src/ScheduledTask.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/src/run.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2_plainflow/src/run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/src/transacProc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2_plainflow/src/transacProc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mongodb_driver_3_6_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mongodb_driver_3_6_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATADownLoader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DATADownLoader.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/Codes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/Codes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DATADownLoader_jar/DATADownLoader.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DATADownLoader_jar/DATADownLoader.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/GTACallbackBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/GTACallbackBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQingDistributor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATADownLoader/ZhiShuHangQingDistributor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GTACallbackBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GTACallbackBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhishu_SH_codes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/zhishu_SH_codes.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,13 +43,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GLBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="7" column="84" lean-forward="true" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
+            <state relative-caret-position="76">
+              <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#260#273#0" expanded="true" />
-                <element signature="e#372#386#0" expanded="true" />
-                <element signature="e#619#641#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GTACallbackBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+            <state relative-caret-position="304">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#OnSubscribe_SSEL2_Quotation#0;class#GTACallbackBase#0" />
@@ -85,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="118" column="43" lean-forward="true" selection-start-line="118" selection-start-column="43" selection-end-line="118" selection-end-column="43" />
+            <state relative-caret-position="1900">
+              <caret line="118" column="43" selection-start-line="118" selection-start-column="43" selection-end-line="118" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="101" column="32" lean-forward="true" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+            <state relative-caret-position="931">
+              <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setSZlist#0;class#Codes#0" />
@@ -253,15 +241,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/qtsapi-2.0.0.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Consumer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -474,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564537192747</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="DataDownloader调试成功,取到了完整的指数数据">
+      <created>1564630723538</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1564630723538</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -492,7 +487,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49725273" visible="true" weight="0.30925325" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49725273" visible="true" weight="0.32224026" />
       <window_info id="Structure" order="1" sideWeight="0.50274724" side_tool="true" weight="0.34253246" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -502,7 +497,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.24333926" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39076376" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39076376" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -572,7 +567,8 @@
     <MESSAGE value="调试，排查为什么没有创建指数行情Topic的原因" />
     <MESSAGE value="调试，排查为什么报thread的错误" />
     <MESSAGE value="DataDownloader调试成功" />
-    <option name="LAST_COMMIT_MESSAGE" value="DataDownloader调试成功" />
+    <MESSAGE value="DataDownloader调试成功,取到了完整的指数数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="DataDownloader调试成功,取到了完整的指数数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1103,21 +1099,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GLBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="7" column="84" lean-forward="true" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
+        <state relative-caret-position="76">
+          <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#260#273#0" expanded="true" />
-            <element signature="e#372#386#0" expanded="true" />
-            <element signature="e#619#641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="118" column="43" selection-start-line="118" selection-start-column="43" selection-end-line="118" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="101" column="32" lean-forward="true" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+        <state relative-caret-position="931">
+          <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setSZlist#0;class#Codes#0" />
@@ -1128,20 +1131,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="118" column="43" lean-forward="true" selection-start-line="118" selection-start-column="43" selection-end-line="118" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GTACallbackBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        <state relative-caret-position="304">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#OnSubscribe_SSEL2_Quotation#0;class#GTACallbackBase#0" />
