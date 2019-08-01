@@ -124,13 +124,10 @@ public class Codes {
             String code = new String(str.split(",")[0]);
             Codes.code_talbe_names.add("SH" + code);
             sb.append(code + ",");
-
             int thread_id = Codes.code_cnt % Codes.thread_num;
             Codes.code_threadID.put(code+".SH", thread_id);
             Codes.code_cnt += 1;
-
         }
-
         Codes.zhishu_SH_string = sb.toString();
         br.close();reader.close();
     }
