@@ -4,11 +4,11 @@
     <list default="true" id="8912de75-d41f-4f90-bc10-32683a080e97" name="Default Changelist" comment="调试消费者">
       <change afterPath="$PROJECT_DIR$/../Client2_plainflow/src/kafkaProc/ZhiShuDeserilizer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Client2_plainflow/src/wangzitian/realtime/ZhiShu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/writer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2_plainflow/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaClient/KafkaSend.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaClient/KafkaSend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaClient/ScheduledTask.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaClient/run.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaClient/run.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaClient/transacProc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaClient/transacProc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaClient/transacProc.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaReceiver/Codes.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaReceiver/kafkaProc/ProducerCallback.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaReceiver/kafkaProc/TransacDeserilizer.class" beforeDir="false" />
@@ -22,7 +22,8 @@
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/src/run.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2_plainflow/src/run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/src/transacProc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2_plainflow/src/transacProc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DATADownLoader/src/kafkaProc/ZhiShuHangQingDeserializer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/writer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DATADownLoader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DATADownLoader/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,32 +40,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JConsumerSubscribe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1213#1229#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/writer">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kafkaProc/ZhiShuDeserilizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state>
               <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
             </state>
           </provider>
@@ -82,12 +61,25 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JConsumerSubscribe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>setThreads_num</find>
       <find>Codes.threads_array</find>
+      <find>client</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,7 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,12 +130,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DATADownLoader" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -193,30 +185,43 @@
       <option name="project" value="LOCAL" />
       <updated>1564641172512</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="调试消费者">
+      <created>1564836450449</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564836450449</updated>
+    </task>
+    <task id="LOCAL-00003" summary="实现每次运行时不同的client id">
+      <created>1564929323972</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564929323972</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.093851134" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49044585" visible="true" weight="0.24919094" />
       <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.19805194" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5026455" side_tool="true" weight="0.19805194" />
+      <window_info id="Favorites" order="6" sideWeight="0.50955415" side_tool="true" visible="true" weight="0.24919094" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34991118" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44227353" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3285968" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3280142" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -300,7 +305,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="调试消费者" />
-    <option name="LAST_COMMIT_MESSAGE" value="调试消费者" />
+    <MESSAGE value="实现每次运行时不同的client id" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现每次运行时不同的client id" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/run.java" />
@@ -314,17 +320,27 @@
     <entry file="file://$PROJECT_DIR$/src/Codes.java" />
     <entry file="file://$PROJECT_DIR$/src/GLBuffer.java" />
     <entry file="file://$PROJECT_DIR$/src/kafkaProc/ZhiShuHangQingDeserializer.java" />
-    <entry file="file://$PROJECT_DIR$/src/writer">
+    <entry file="file://$PROJECT_DIR$/src/kafkaProc/ZhiShuDeserilizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        <state>
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kafkaProc/ZhiShuDeserilizer.java">
+    <entry file="file://$PROJECT_DIR$/src/writer">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="38">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1785">
+          <caret line="745" column="16" selection-start-line="745" selection-start-column="16" selection-end-line="745" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -338,13 +354,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JConsumerSubscribe.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="2125">
+          <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1213#1229#0" expanded="true" />
+            <element signature="e#4787#4788#0" expanded="true" />
+            <element signature="e#4813#4814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JConsumerSubscribe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
