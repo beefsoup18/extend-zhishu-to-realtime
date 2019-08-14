@@ -19,17 +19,18 @@ public class JConsumer_hangqing extends Thread {
 
     public void run() {
 
-        String topic_name = "SZ000006_hangqing";
+//        String topic_name = "SZ000006_hangqing";
+        String topic_name = "SH136129_hangqing";
         SimpleDateFormat sdf = new SimpleDateFormat("MMddHHmmss");
         Date time_now = new Date();
         String now_str = sdf.format(time_now);
 
         Properties props = new Properties();
-        props.put("bootstrap.servers", "localhost:9092");
+        props.put("bootstrap.servers", "192.168.1.101:9092，192.168.1.101:9091，192.168.1.101:9093");
         props.put("group.id", topic_name+"_"+now_str);  //配置client id
         props.put("enable.auto.commit", "true");
         props.put("auto.commit.interval.ms", "1000");
-        props.put("auto.offset.reset", "latest"); //"earliest"
+        props.put("auto.offset.reset", "latest"); //"earliest"  "latest"
         props.put("receive.buffer.bytes", 65536 * 15);
         props.put("socket.receive.buffer.bytes", 64 * 1024 * 10);
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");

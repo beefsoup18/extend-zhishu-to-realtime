@@ -12,6 +12,7 @@
       <root url="jar://$PROJECT_DIR$/lib/scala-library-2.11.12.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.25.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/slf4j-log4j12-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/fastjson-1.2.8.sec05.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
