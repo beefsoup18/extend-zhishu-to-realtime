@@ -1,16 +1,18 @@
 import java.util.*;
 import java.util.concurrent.ExecutionException;
-
+import org.apache.kafka.common.serialization.StringSerializer;
+import org.apache.kafka.common.serialization.StringDeserializer;
 
 import org.apache.kafka.clients.admin.*;
 import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 
 
 
 public class Kafka {
 
-    public static String second_boker_url = new String("192.168.1.102：9092");  //"118.89.243.189:9092,118.89.243.189:9093,118.89.243.189:9094"
+    public static String second_boker_url = new String("192.168.1.102:9092");  //"118.89.243.189:9092,118.89.243.189:9093,118.89.243.189:9094"
     public static String boker_url = new String(second_boker_url);//("192.168.1.101:9092,192.168.1.101:9091,192.168.1.101:9093");
 //    public static ArrayList<KafkaProducer<String, Transactions>> producers = new ArrayList<KafkaProducer<String, Transactions>>();
 //    public static ArrayList<KafkaProducer<String, SZorder>> OrderProducers = new ArrayList<KafkaProducer<String, SZorder>>();
@@ -100,11 +102,11 @@ public class Kafka {
 
     public static void buildZhiShuHangQingOnlyProducers(){
         Properties kafkaProps = new Properties();
+
         kafkaProps.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, Kafka.second_boker_url);
-//        kafkaProps.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer");
-//        kafkaProps.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, ZhiShuHangQingSerializer.class.getName());
+        kafkaProps.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer");
+        kafkaProps.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer");
         kafkaProps.put("linger.ms", 15);
-//        kafkaProps.put("compression.type", "gzip");
         kafkaProps.put("buffer.memory", Long.valueOf("335544320")*5);
         kafkaProps.put("send.buffer.bytes", 131072*15);
         kafkaProps.put("receive.buffer.bytes", 32678*15);
@@ -118,6 +120,7 @@ public class Kafka {
         kafkaProps.put("max.block.ms", Long.MAX_VALUE);
         kafkaProps.put("max.in.flight.requests.per.connection", 1);
         kafkaProps.put("log.message.timestamp.type", "LogAppendTime");
+
 
         Kafka.zhishuhangqingOnly_producer = new KafkaProducer<>(kafkaProps);
 

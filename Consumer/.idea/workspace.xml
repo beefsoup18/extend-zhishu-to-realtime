@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8912de75-d41f-4f90-bc10-32683a080e97" name="Default Changelist" comment="新增行情数据消费者">
+    <list default="true" id="8912de75-d41f-4f90-bc10-32683a080e97" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../Client2_plainflow/20190731080100000.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Client2_plainflow/20190731081000000.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Client2_plainflow/20190731081500000.txt" afterDir="false" />
@@ -47,63 +47,7 @@
       <change afterPath="$PROJECT_DIR$/../Client2_plainflow/src/kafkaProc/ZhiShuHangQing.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Client2_plainflow/src/wangzitian/realtime/ZhiShu.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Consumer.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Consumer_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SH000300_zhishu_hangqing.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SZ300392.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SZ399300_zhishu_hangqing.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/avro-1.8.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/avro-compiler-1.8.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kafka-clients-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kafka_2.11-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/metrics-core-2.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/scala-library-2.11.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slf4j-log4j12-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Consumer_jar/Consumer.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/JConsumerSubscribe.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/JConsumer_hangqing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/JConsumer_transaction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/kafkaProc/HangQingDeserializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/kafkaProc/TransacDeserilaizer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/kafkaProc/ZhiShuDeserilizer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/run.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/AvroSigalSerial.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/AvroSignalDeserial.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/HangQing$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/HangQing$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/HangQing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/SZorder$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/SZorder$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/SZorder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/SignalRange0$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/SignalRange0$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/SignalRange0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/ZhiShu$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/ZhiShu$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/ZhiShu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JConsumerSubscribe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JConsumer_transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kafka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ZhiShuHangQingProducerCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kafkaProc/ProducerCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kafkaProc/TransacDeserilaizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kafkaProc/TransacSerilizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kafkaProc/ZhiShuDeserilizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wangzitian/realtime/AvroSigalSerial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wangzitian/realtime/AvroSignalDeserial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wangzitian/realtime/HangQing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wangzitian/realtime/SZorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wangzitian/realtime/SignalRange0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wangzitian/realtime/Transactions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wangzitian/realtime/ZhiShu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topicName.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZhiShuHangQingSerializer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DATADownLoader.rar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DATADownLoader/codes1500.rar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DATADownLoader/codes20.rar" afterDir="false" />
@@ -171,20 +115,19 @@
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaClient/run.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaClient/run.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaClient/transacProc.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaReceiver/Codes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaReceiver/kafkaProc/ProducerCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Consumer/kafkaProc/ProducerCallback.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaReceiver/kafkaProc/TransacDeserilizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaReceiver/kafkaProc/TransacSerilizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Consumer/kafkaProc/TransacSerilizer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaReceiver/run.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaReceiver/wangzitian/realtime/Transactions$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/Transactions$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaReceiver/wangzitian/realtime/Transactions$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/Transactions$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaReceiver/wangzitian/realtime/Transactions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Consumer/wangzitian/realtime/Transactions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/out/production/KafkaReceiver/writeTransac.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/src/KafkaSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2_plainflow/src/KafkaSend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/src/run.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2_plainflow/src/run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client2_plainflow/src/transacProc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2_plainflow/src/transacProc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/avro_1_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/avro_1_8_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JConsumer_hangqing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JConsumer_hangqing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Consumer/JConsumerSubscribe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Consumer/JConsumerSubscribe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Consumer/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Consumer/run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Consumer/run.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JConsumerSubscribe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JConsumerSubscribe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kafka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kafka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DATADownLoader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DATADownLoader/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DATADownLoader/SH_codes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../DATADownLoader/SH_codes.txt" afterDir="false" />
@@ -224,34 +167,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JConsumerSubscribe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="109">
+              <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/kafka-clients-1.0.1.jar!/org/apache/kafka/clients/producer/ProducerRecord.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQingProducerCallback.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-252">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1679#1695#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -260,24 +182,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kafka.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+            <state relative-caret-position="1026">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#8333#9601#0" />
                 <element signature="e#9608#10823#0" />
                 <element signature="e#10830#12118#0" />
-                <element signature="e#12125#13408#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+            <state relative-caret-position="190">
+              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -315,9 +236,10 @@
         <option value="$PROJECT_DIR$/src/kafkaProc/TransacDeserializer.java" />
         <option value="$PROJECT_DIR$/src/kafkaProc/TransacDeserilaizer.java" />
         <option value="$PROJECT_DIR$/src/JConsumer_transaction.java" />
-        <option value="$PROJECT_DIR$/src/run.java" />
         <option value="$PROJECT_DIR$/src/JConsumer_hangqing.java" />
         <option value="$PROJECT_DIR$/src/ZhiShuHangQingProducerCallback.java" />
+        <option value="$PROJECT_DIR$/src/run.java" />
+        <option value="$PROJECT_DIR$/src/ZhiShuHangQingSerializer.java" />
         <option value="$PROJECT_DIR$/src/Kafka.java" />
         <option value="$PROJECT_DIR$/src/JConsumerSubscribe.java" />
       </list>
@@ -330,9 +252,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="765" />
-    <option name="y" value="27" />
-    <option name="width" value="918" />
+    <option name="x" value="648" />
+    <option name="y" value="90" />
+    <option name="width" value="1145" />
     <option name="height" value="951" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -367,7 +289,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565316010127" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../DATADownLoader" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -448,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564994500130</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="消费端实现数据转发功能">
+      <created>1565772971105</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565772971105</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -456,8 +385,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4920635" visible="true" weight="0.19660194" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4920635" weight="0.62025315" />
       <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.19805194" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -466,7 +396,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50793654" side_tool="true" weight="0.24919094" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42984015" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3534636" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -565,7 +495,8 @@
     <MESSAGE value="实现每次运行时不同的client id" />
     <MESSAGE value="调试消费者" />
     <MESSAGE value="新增行情数据消费者" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增行情数据消费者" />
+    <MESSAGE value="消费端实现数据转发功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="消费端实现数据转发功能" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/run.java" />
@@ -581,7 +512,6 @@
     <entry file="file://$PROJECT_DIR$/src/kafkaProc/ZhiShuHangQingDeserializer.java" />
     <entry file="file://$PROJECT_DIR$/src/writer" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Thread.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Properties.java" />
     <entry file="file://$PROJECT_DIR$/src/JCcomsumer_hangqing.java" />
     <entry file="file://$PROJECT_DIR$/src/JComsumer_hangqing.java" />
     <entry file="file://D:/DATADownLoader/src/GTACallbackBase.java" />
@@ -646,23 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kafka-clients-1.0.1.jar!/org/apache/kafka/clients/producer/KafkaProducer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="307" column="66" lean-forward="true" selection-start-line="307" selection-start-column="39" selection-end-line="307" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/kafka-clients-1.0.1.jar!/org/apache/kafka/clients/consumer/KafkaConsumer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1878">
@@ -670,30 +583,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kafka.java">
+    <entry file="jar://$PROJECT_DIR$/lib/kafka-clients-1.0.1.jar!/org/apache/kafka/clients/producer/ProducerConfig.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+        <state relative-caret-position="98">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8333#9601#0" />
-            <element signature="e#9608#10823#0" />
-            <element signature="e#10830#12118#0" />
-            <element signature="e#12125#13408#0" />
+            <element signature="e#14240#14241#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kafka-clients-1.0.1.jar!/org/apache/kafka/clients/producer/ProducerRecord.class">
+    <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQingSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        <state relative-caret-position="-76">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#691#699#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ZhiShuHangQingProducerCallback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
+        <state relative-caret-position="-138">
           <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -701,10 +614,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kafka-clients-1.0.1.jar!/org/apache/kafka/clients/producer/ProducerRecord.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1957">
+          <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
+          <folding>
+            <element signature="e#4787#4788#0" expanded="true" />
+            <element signature="e#4813#4814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/JConsumerSubscribe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="109">
+          <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <folding>
+            <element signature="e#1679#1695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kafka-clients-1.0.1.jar!/org/apache/kafka/clients/producer/KafkaProducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2356">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kafka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8333#9601#0" />
+            <element signature="e#9608#10823#0" />
+            <element signature="e#10830#12118#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -722,6 +683,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

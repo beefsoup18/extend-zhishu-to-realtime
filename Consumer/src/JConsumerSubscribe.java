@@ -11,7 +11,9 @@ import kafkaProc.ZhiShuDeserilizer;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
+import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
+import org.apache.kafka.clients.producer.Producer;
 import wangzitian.realtime.ZhiShu;
 
 
@@ -100,6 +102,7 @@ public class JConsumerSubscribe extends Thread {
 
                 /*数据转发*/
                 ProducerRecord<String, String> record_string = new ProducerRecord<>(topic_name,data);
+
                 try{
                     Kafka.zhishuhangqingOnly_producer.send(record_string, new ZhiShuHangQingProducerCallback());
                     System.out.println("sending");
